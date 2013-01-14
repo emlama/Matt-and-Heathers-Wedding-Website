@@ -1,0 +1,271 @@
+/*
+===========================
+	Fonts
+===========================
+*/
+@font-face {
+	font-family: 'Banda';
+	src: url('../../../tpl/v1/fonts/Banda.eot'); /* IE */  
+	src: local('Banda'), url('../../../tpl/v1/fonts/Banda.otf') format('opentype');
+}
+
+a, p, h1, h2, h3, h4, ul, li, label, textarea, input{
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+
+input:focus, textarea:focus{
+	outline-width: 0;	
+}
+
+a.active{
+	opacity: 1!important;	
+}
+
+.hidden {
+	display: none;
+}
+div.desc.hover{
+	z-index: 501!important;	
+}
+div.list a.hover{
+	z-index: 502 !important;
+}
+.popup {
+		display: none;
+		background: #fff;
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		text-align: center;
+		padding: 50px 50px 50px 50px;
+		z-index: 1000;
+		opacity 1.0;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.25);
+}
+.popup, .popup input, .popup label, .popup textarea, .popup select {
+	font-size: 16px;
+}
+.popup#popup-rsvp {
+		width: 520px;
+		height: 30px;
+		margin: -65px 0 0 -260px;
+}
+.popup.active {
+	display: block;
+}
+.popup-background {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 900;
+	background-color: #000000;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+#default {
+}
+
+form.add-event-rsvp .edit-rsvp {
+	display: block;
+}
+form.add-event-rsvp .show-rsvp {
+	display: none;
+}
+form.add-event-rsvp.has-rsvp .edit-rsvp {
+	display: none;
+}
+form.add-event-rsvp.has-rsvp .show-rsvp {
+	display: block;
+}
+	form.add-event-rsvp .show-rsvp > div.current-rsvp {
+		font-size: 13px;
+		margin: 0 0 8px 0;
+	}
+body#page-profile.in_theme_editor .edit {
+	display: none;
+}
+/*
+===========================
+	Login bar
+===========================
+*/
+body.show_login_bar {
+	margin-top: 60px;
+}
+#login-bar {
+	display: none;
+	background: #f8f8f4;
+	color: #83827c;
+	font-family: Banda;
+	font-size: 18px;
+	text-align: center;
+	overflow: hidden;
+	padding: 0px;
+	width: 100%;
+	height: 60px;
+	opacity: 1.0;
+	box-shadow: 0px 2px 4px 0 rgba(0, 0, 0, 0.25);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10000;
+}
+body.show_login_bar #login-bar {
+ 	display: block !important;
+}
+#login-bar.slide-up {
+			 opacity: 0;
+ -webkit-transition: opacity 0.45s ease-in-out;
+     -moz-transition: opacity 0.45s ease-in-out;
+      -ms-transition: opacity 0.45s ease-in-out;
+       -o-transition: opacity 0.45s ease-in-out;
+          transition: opacity 0.45s ease-in-out;
+}
+	#login-bar .login-bar-inner {
+		display: table;
+		margin: 0 auto;
+		padding: 12px 13px;
+	}
+	#login-bar p {
+		line-height: 36px;
+		display: block;
+		float: left;
+		padding: 0;
+		margin: 0;
+		text-shadow: 0 1px 1px rgba(255, 255, 255, 1.0);
+	}
+	#login-bar .fb-login {
+		width: 100px;
+		height: 36px;
+		background: url('../img/fb-login.png');
+		display: block;
+		float: left;
+		margin: 0 0 0 20px;
+	}
+	#login-bar .close-login-bar {
+		cursor: pointer;
+		background: url('../img/icon-remove.png') right center no-repeat;
+		width: 15px;
+		height: 36px;
+		float: left;
+		margin: 0 0 0 25px;
+		padding: 0 0 0 25px;
+		border-left: 1px solid #c9c8bf;
+	}
+	
+.align-left{
+	text-align: left;	
+}
+.align-center{
+	text-align: center;	
+}
+.align-right{
+	text-align: right;	
+}
+
+/*
+===========================
+	Made with Weduary
+===========================
+*/
+#madewith{
+width: 200px!important;
+height: auto;
+margin: 0px auto;
+text-align: center;
+}
+
+#madewith span{
+	display: block;
+	width: 35px;
+	height: 45px;
+	margin: 30px auto 0px auto;
+	background: url('../img/madewithweduary.png');
+}
+
+#madewith a{
+	width: 200px;
+	display: block;
+	margin: 10px auto;
+	text-align:center;
+	text-transform: lowercase !important;
+}
+#madewith a span{
+	text-align:center;
+	background: none;
+	width: auto;
+	height: auto;
+	margin: 0px 0px;
+	font-family: "Banda";
+	font-size: 16px;
+	text-transform:lowercase;
+}
+/*
+===========================
+	Icons
+===========================
+*/
+.remove {
+	background: url('../img/story-delete.png') no-repeat center center;
+	text-indent: -99px;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	overflow: hidden;
+	padding: inherit;
+	margin: 0 !important;
+}
+
+.remove-story {
+	vertical-align: middle;
+	float: right;
+	position: absolute;
+	right: -19px;
+	top: -15px;
+}
+
+/*
+===========================
+	Avatar editing
+===========================
+*/
+div.avatar {
+	position: relative;
+}
+a.avatar,
+#profile #nametag a.avatar {
+	width: auto;
+	height: auto;
+	color: transparent;
+	text-shadow: none;
+	background: rgba(0, 0, 0, 0.25) url('../../../tpl/v1/img/global/photo/button-edit.png') no-repeat 10px center;
+	background-size: auto auto;
+	display: none;
+	color: #ffffff;
+	font-family: "Banda";
+	font-size: 13px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.45);
+	text-indent: 40px;
+	width: 100%;
+	height: 40px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+	height: 40px;
+	line-height: 40px;
+	z-index: 301;
+}
+div.avatar:hover a.avatar, div.avatar a.avatar.active {
+	display: inline-block !important;
+	text-decoration: none;
+}
+	a.avatar > span {
+		display: block;
+	}

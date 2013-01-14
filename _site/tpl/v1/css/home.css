@@ -1,0 +1,1351 @@
+/*body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin: 0px;
+}
+
+#top {
+	background: url('http://saforrian.com/tpl/v1/img/home/top-bg.png') left repeat-x;
+	height: 432px;
+}
+	#top .bg {
+		background: url('http://saforrian.com/tpl/v1/img/home/top-bg2.png') top center no-repeat;
+		width: 890px;
+		margin: 0px auto;
+		padding: 40px 0px 0px 0px;
+	}
+	#top h1 {
+		width: 466px;
+		height: 87px;
+		margin: 0px auto;
+	}
+		#top h1 a {
+			background: url('http://saforrian.com/tpl/v1/img/home/logo.png');
+			display: block;
+			width: 100%;
+			height: 100%;
+		}
+		#top h1 span { display: none; }
+	#top ul {
+		margin: 0px;
+		padding: 0px;
+		list-style: none;
+		overflow: hidden;
+		position: absolute;
+		top: 45px;
+		right: 50px;
+	}
+		#top ul li {
+			float: left;
+			margin: 0px 0px 0px 20px;
+		}
+		#top ul a {
+			font-size: 14px;
+			color: #fff;
+			text-align: center;
+			text-decoration: none;
+			text-shadow: 0px 1px #a45b4c;
+			text-transform: uppercase;
+			letter-spacing: 0px;
+			line-height: 42px;
+			background: url('http://saforrian.com/tpl/v1/img/home/button-top.png');
+			display: block;
+			width: 103px;
+			height: 42px;
+		}
+		#top ul span { display: none; }
+	#top .book {
+		background: url('http://saforrian.com/tpl/v1/img/home/book.png');
+		height: 292px;
+		margin: 13px 0px 0px 0px;
+		position: relative;
+		z-index: 3;
+	}
+		#top .book a {
+			background: url('http://saforrian.com/tpl/v1/img/home/button-try.png');
+			display: block;
+			width: 397px;
+			height: 106px;
+			position: absolute;
+			right: 247px;
+			bottom: -54px;
+		}
+			#top .book a span { display: none; }
+
+#main {
+	background: url('http://saforrian.com/tpl/v1/img/home/main-bg.png');
+	height: 600px;
+	position: relative;
+	z-index: 1;
+}
+	#main .bg {
+		background: url('http://saforrian.com/tpl/v1/img/home/main-bg2.png') top center no-repeat;
+	}
+	#main .border {
+		background: url('http://saforrian.com/tpl/v1/img/home/main-border.png') top left repeat-x;
+		width: 100%;
+		height: 6px;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		z-index: 2;
+	}
+	#main .wrapper {
+		width: 890px;
+		height: 488px;
+		margin: 0px auto;
+		position: relative;
+	}
+	#main .section {
+		background: url('http://saforrian.com/tpl/v1/img/home/section-social.png');
+		width: 244px;
+		height: 288px;
+		padding: 200px 0px 0px 0px;
+		position: absolute;
+		top: 0px;
+		left: 323px;
+	}
+		#main .section p {
+			font-size: 14px;
+			color: #3c3735;
+			text-align: center;
+			text-shadow: 0px 1px #fff;
+			line-height: 20px;
+			margin: 0px;
+			padding: 0px 20px;
+		}
+		#main .section p.small {
+			font-size: 13px;
+			font-style: italic;
+			color: #7b7473;
+			line-height: 18px;
+			padding: 0px 10px;
+		}
+	#main .section.left {
+		background: url('http://saforrian.com/tpl/v1/img/home/section-beautiful.png') top right no-repeat;
+		width: 320px;
+		height: 415px;
+		padding: 240px 0px 0px 0px;
+		position: absolute;
+		top: 0px;
+		left: -70px;
+	}
+		#main .section.left p {
+			color: #615d5b;
+			text-align: right;
+			height: 180px;
+			position: relative;
+		}
+		#main .section.left .examples {
+			background: url('http://saforrian.com/tpl/v1/img/home/button-examples.png');
+			display: block;
+			width: 143px;
+			height: 35px;
+			position: absolute;
+			right: 0px;
+			bottom: 0px;
+		}
+			#main .section.left .examples span { display: none; }
+	#main .section.right {
+		background: url('http://saforrian.com/tpl/v1/img/home/section-simple.png') top left no-repeat;
+		width: 250px;
+		height: 415px;
+		padding: 240px 0px 0px 0px;
+		position: absolute;
+		top: 0px;
+		left: 620px;
+	}
+		#main .section.right p {
+			color: #615d5b;
+			text-align: left;
+			height: 165px;
+			padding: 15px 0px 0px 0px;
+			position: relative;
+		}
+		#main .section.right .demo {
+			background: url('http://saforrian.com/tpl/v1/img/home/button-demo.png');
+			display: block;
+			width: 127px;
+			height: 35px;
+			position: absolute;
+			left: 0px;
+			bottom: 0px;
+		}
+			#main .section.right .demo span { display: none; }
+	#main .envelope {
+		background: url('http://saforrian.com/tpl/v1/img/home/envelope.png');
+		width: 131px;
+		height: 107px;
+		margin: 10px auto;
+	}
+
+#footer {
+	text-align: center;
+	background: url('http://saforrian.com/tpl/v1/img/home/footer-bg.png') top left repeat-x;
+	height: 426px;
+	position: relative;
+	z-index: 2;
+}
+	#footer ul {
+		font-size: 12px;
+		text-shadow: 0px 1px #fff;
+		text-transform: uppercase;
+		letter-spacing: 0px;
+		margin: 0px;
+		padding: 0px;
+		list-style: none;
+	}
+		#footer ul li {
+			display: inline-block;
+			margin: 0px 5px;
+		}
+		#footer ul a {
+			color: #c27f71;
+			text-decoration: none;
+		}
+	#footer .flower {
+		background: url('http://saforrian.com/tpl/v1/img/home/footer-flower.png');
+		display: inline-block;
+		width: 145px;
+		height: 136px;
+		margin: -67px 0px 20px 0px;
+	}
+	#footer .brit {
+		background: url('http://saforrian.com/tpl/v1/img/home/footer-logo.png');
+		display: inline-block;
+		width: 85px;
+		height: 47px;
+		margin: 60px 0px 0px 25px;
+		outline: none;
+	}
+		#footer .brit span { display: none; }
+		*/
+		
+		/*
+	Reset - Version 2.1
+	Last Updated: 12/02/2012 04:17:10
+*/
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+	display: block;
+}
+
+html {
+	font-size: 16px;
+}
+
+body {
+	color: #333;
+	font-size: 62.5%;
+}
+
+body, select, input, textarea, a {
+	color: #333;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+th {
+	font-weight: bold;
+	vertical-align: bottom;
+}
+
+td {
+	font-weight: normal;
+	vertical-align: top;
+}
+
+hr {
+	display: none;
+}
+
+input, select {
+	vertical-align: middle;
+}
+
+textarea {
+	vertical-align: top;
+	overflow: auto;
+} 
+
+:focus {
+	outline: none;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+input[type="radio"] {
+	vertical-align: text-bottom;
+}
+
+input[type="checkbox"] {
+	vertical-align: bottom;
+	*vertical-align: baseline;
+}
+
+::-moz-selection {
+	color: #fff;
+	background: #000;
+	text-shadow: none;
+}
+
+::selection {
+	color: #fff;
+	background: #000;
+	text-shadow: none;
+}
+/*
+	table of contents:
+		defaults
+		headers
+		container
+		steps
+		content
+		about
+		social
+		footer
+		tooltip
+		@font-face
+
+*/
+
+/* defaults
+----------------------------------------------------------------------------------------------------------------*/
+
+html {
+	font-size: 16px;
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+	font-family: BandaSemiBold, Helvetica, sans-serif;
+	font-size: 62.5%;
+	background: #f0f0f0 url("http://saforrian.com/tpl/v1/img/home/bg.jpg") repeat-x;
+	margin: 0; padding: 0;
+}
+
+/* headers
+----------------------------------------------------------------------------------------------------------------*/
+
+#header {
+	width: 885px;
+	height: 300px;
+	margin: 0 auto;
+	background: inherit;
+}
+	#header {
+	width: 885px;
+	height: 300px;
+	margin: 0 auto;
+	background: inherit;
+	}
+
+	#header .logo a {
+		text-indent: -9999em;
+		background: url("http://saforrian.com/tpl/v1/img/home/logo.png") no-repeat;
+		width: 178px;
+		height: 48px;
+		/*margin: 55px 0 0 105px;*/
+		margin: 55px 0 0 42px;
+		float: left;
+	}
+	
+	#header .login {
+		color: #f8f8f8;
+		font-size: 1.3em;
+		text-shadow: 0 -1px #92493a;
+		text-transform: uppercase;
+		text-align: center;
+		background: rgba(103, 86, 78, .2);
+		-moz-border-radius: 20px;
+		-webkit-border-radius: 20px;
+		border-radius: 20px;
+		width: 67px;
+		height: 23px;
+		/*margin: 57px 85px 0 0; */
+		margin: 57px 33px 0 0; padding: 9px 0 0 0;
+		float: right;
+	}
+	
+	#header .login:hover {
+		text-decoration: none;
+	}
+	
+	#header h2 {
+		text-indent: -9999em;
+		background: url("http://saforrian.com/tpl/v1/img/home/pitch.png") no-repeat;
+		width: 724px;
+		height: 146px;
+		margin: 38px 0 0 77px;
+		display: inline-block;
+	}
+
+.sub-header {
+	background: url("http://saforrian.com/tpl/v1/img/home/bg-sub.jpg") repeat-x;
+	width: 100%;
+	height: 107px;
+	clear: both;
+	overflow: hidden;
+}
+
+.sub-header-fixed {
+	background: url("http://saforrian.com/tpl/v1/img/home/bg-sub.png") repeat-x;
+	height: 140px;
+	position: fixed;
+	top: 0;
+	z-index: 20;	
+}
+
+	.sub-header .button-try-it {
+		text-indent: -9999em;
+		background: url("http://saforrian.com/tpl/v1/img/home/button-try-it.png") no-repeat;
+		width: 300px;
+		height: 73px;
+		margin: 20px auto 0 auto;
+		left: 5px;
+		position: relative;
+		display: block;
+	}
+	
+	.sub-header .button-try-it:hover {
+		background-position: bottom;
+	}
+
+/* container
+----------------------------------------------------------------------------------------------------------------*/
+
+.container_home {
+	width: 885px;
+	margin: 0 auto;
+}
+.container {
+	width: 880px;
+	margin: 0 auto;
+}
+
+/* steps
+----------------------------------------------------------------------------------------------------------------*/
+
+.steps {
+	background: url("http://saforrian.com/tpl/v1/img/home/steps-glow.png") no-repeat -10px 0;
+	margin: 0 0 0 0px;
+	overflow: hidden;
+	clear: both;
+}
+
+	.steps li {
+		text-align: center;
+		width: 287px;
+		height: 160px;
+		float: left;
+		position: relative;
+	}
+
+	.steps li:hover h3 {
+		text-shadow: 0 1px 6px #ffa390;
+	}
+	
+	.steps .build {
+		background: url("http://saforrian.com/tpl/v1/img/home/icon-slider.png") no-repeat center -405px;
+		padding: 100px 0 0 0;
+	}
+
+		.steps .build em {
+			background: url("http://saforrian.com/tpl/v1/img/home/icon-slider.png") no-repeat center 37px;
+			position: absolute;
+			top: 0; left: 0; bottom: 0; right: 0;
+			opacity: 0;
+			-moz-transition: opacity 0.5s;
+			-webkit-transition: opacity 0.5s;
+			-o-transition: opacity 0.5s;
+		}
+
+		.steps .build:hover em {
+			opacity: 1;
+		}
+	
+	.steps .invite {
+		background: url("http://saforrian.com/tpl/v1/img/home/icon-invite.png") no-repeat center -405px;
+		padding: 100px 0 0 0;
+	}
+
+		.steps .invite em {
+			background: url("http://saforrian.com/tpl/v1/img/home/icon-invite.png") no-repeat center 37px;
+			position: absolute;
+			top: 0; left: 0; bottom: 0; right: 0;
+			opacity: 0;
+			-moz-transition: opacity 0.5s;
+			-webkit-transition: opacity 0.5s;
+			-o-transition: opacity 0.5s;
+		}
+
+		.steps .invite:hover em {
+			opacity: 1;
+		}
+
+	.steps .socialize {
+		background: url("http://saforrian.com/tpl/v1/img/home/icon-socialize.png") no-repeat center -405px;
+		padding: 100px 0 0 0;
+	}
+
+		.steps .socialize em {
+			background: url("http://saforrian.com/tpl/v1/img/home/icon-socialize.png") no-repeat center 37px;
+			position: absolute;
+			top: 0; left: 0; bottom: 0; right: 0;
+			opacity: 0;
+			-moz-transition: opacity 0.5s;
+			-webkit-transition: opacity 0.5s;
+			-o-transition: opacity 0.5s;
+		}
+
+		.steps .socialize:hover em {
+			opacity: 1;
+		}
+
+	.steps li:nth-child(2) {
+		border-left: 1px solid rgba(0, 0, 0, .1);
+		border-right: 1px solid rgba(0, 0, 0, .1);
+		margin: 0 10px 0 15px;
+	}
+
+	.steps li:nth-child(3) {
+		width: 250px;
+	}
+
+	.steps li h3 {
+		color: #fff;
+		font-size: 2.0em;
+		text-shadow: 0 -1px rgba(0, 0, 0, .45);
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		font-weight: normal;
+		margin: 20px 0 7px 0;
+		-webkit-transition: all 0.2s ease-in-out;
+		-moz-transition: all 0.2s ease-in-out;
+		-o-transition: all 0.2s ease-in-out;
+		-ms-transition: all 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out;
+	}
+	
+	.steps li p {
+		color: #63433d;
+		font-size: 1.6em;
+		text-shadow: 0 1px rgba(255, 194, 181, .65);
+		padding: 0 20px;
+	}
+	
+	.steps li a:hover {
+		text-decoration: none;
+	}
+
+	.steps li span {
+		color: #fff;
+		font-size: 2.0em;
+		font-weight: normal;
+		text=shadow: 0 1px #000;
+		text-align: center;
+		background: url("http://saforrian.com/tpl/v1/img/home/steps-number-bg.png") no-repeat;
+		width: 42px;
+		height: 35px;
+		padding: 7px 0 0 0;
+		display: block;
+		position: absolute;	
+		top: 20px; left: 25px;		
+	}
+
+/* content
+----------------------------------------------------------------------------------------------------------------*/
+#wrapper_about{
+background: url("http://saforrian.com/tpl/v1/img/home/bg-content.jpg");
+}
+
+.page {
+	background: url("http://saforrian.com/tpl/v1/img/home/bg-content.jpg");
+	width: 100%;
+	margin: 7px 0 0 0;
+	clear: both;
+	zoom: 1;
+}
+
+.page:before,
+.page:after {
+	content: "";
+	display: table;
+}
+
+.page:after {
+	clear: both;
+}
+
+	.page .row {
+		border-bottom: 1px solid rgba(0, 0, 0, .08);
+		width: 100%;
+		float: left;
+	}
+
+	.page .features {
+		margin: 0 auto; padding: 0 0 0 2px;
+	}
+		.page .features ul{
+		width: 883px;
+		margin: 0px auto;
+		}
+			.page .features li {
+				text-align: center;
+				width: 220px;
+				height: 117px;
+				padding: 18px 0 40px 0;
+				float: left;
+				position: relative;
+			}
+	
+			.page .first li:nth-child(even) {
+				border-left: 1px solid rgba(0, 0, 0, .08);
+				border-right: 1px solid rgba(0, 0, 0, .08);
+				background: rgba(0, 0, 0, .02);
+			}
+	
+			.page .first li:nth-child(3n) h3 {
+				margin: 2px 0 0 0;
+			}
+	
+			.page .first li:nth-child(4n) h3 {
+				margin: 2px 0 0 0;
+			}
+	
+			.page .first li:last-child {
+				border-right: 0;
+			}
+	
+			.page .second li:nth-child(odd) {
+				border-left: 1px solid rgba(0, 0, 0, .08);
+				border-right: 1px solid rgba(0, 0, 0, .08);
+				background: rgba(0, 0, 0, .02);
+			}
+			
+			.page .second li:nth-child(1n) h3 {
+				margin: 15px 0 0 0;
+			}
+			
+			.page .second li:nth-child(2n) h3,
+			.page .second li:nth-child(3n) h3 {
+				margin: 4px 0 0 0;
+			}
+	
+	
+			.page .second li:first-child {
+				border-left: 0;
+			}
+	
+				.page .features li h3 {
+					color: #53453e;
+					font-size: 1.4em;
+					text-shadow: 0 1px #fff;
+					text-transform: uppercase;
+					letter-spacing: 0.11em;
+					font-weight: normal;
+					margin: 12px 0 0 0;
+				}
+
+.themes {
+	width: 740px;
+	margin: 0 auto; padding: 35px 0 45px 0;
+	overflow: hidden;
+	clear: both;
+}
+
+	.themes .page {
+		width: 215px;
+		height: 220px;
+		padding: 44px 0 0 8px;
+		float: left;
+	}
+	
+		.themes .page h2 {
+			text-indent: -9999em;
+			background: url("http://saforrian.com/tpl/v1/img/home/themes-title.png") no-repeat;
+			width: 207px;
+			height: 118px;
+		}
+		
+		.themes .page .see-themes {
+			color: #8e8e8e;
+			font-size: 1.4em;
+			text-transform: uppercase;
+			text-align: center;
+			background: #fff;
+			background: -moz-linear-gradient(top, #ffffff 0%, #ececec 100%);
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ececec));
+			background: -webkit-linear-gradient(top, #ffffff 0%,#ececec 100%);
+			background: -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
+			background: -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
+			background: linear-gradient(top, #ffffff 0%,#ececec 100%);
+			-moz-border-radius: 20px;
+			-webkit-border-radius: 20px;
+			border-radius: 20px;
+			-moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .3);
+			-webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .3);
+			box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .3);
+			width: 201px;
+			height: 27px;
+			margin: 24px 0 0 10px; padding: 12px 0 0 0;
+			display: block;
+		}
+		
+		.themes .page .see-themes:hover {
+			text-decoration: none;
+		}
+.press {
+	height: 280px;
+	width: 880px;
+	padding: 35px 0 45px 0px;
+	overflow: hidden;
+}
+
+	.press .quote {
+		position: relative;
+	}
+
+	.press .quote p {
+		font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+		color: #646464;
+		font-size: 1.6em;
+		font-style: italic;
+		line-height: 1.8em;
+		text-align: center;
+		border: 1px solid rgba(0, 0, 0, .2);
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		-moz-box-shadow: 0 1px 0 0 #fff;
+		-webkit-box-shadow: 0 1px 0 0 #fff;
+		box-shadow: 0 1px 0 0 #fff;
+		width: 635px;	
+		overflow: hidden;
+		float: left;
+	}
+
+		.press .quote p span {
+			-moz-box-shadow: inset 0 1px 0 #fff;
+			-webkit-box-shadow: inset 0 1px 0 #fff;
+			box-shadow: inset 0 1px 0 #fff;
+			display: block;
+			padding: 30px 30px 25px 30px;
+		}
+
+		.press .quote .arrow {
+			background: url("http://saforrian.com/tpl/v1/img/home/quote-arrow.png") no-repeat;
+			width: 13px;
+			height: 24px;
+			position: absolute;
+			left: 636px; top: 10px;
+		}
+
+	.press .quote .author {
+		margin: 9px 0 0 34px;
+		float: left;
+	}
+
+		.press .quote .author h3 {
+			color: #c56754;
+			font-size: 1.8em;
+			font-weight: normal;
+		}
+
+		.press .quote .author span {
+			color: #646464;
+			font-size: 1.8em;
+			font-weight: normal;
+		}
+
+	.press ul {
+		clear: both;
+	}
+
+		.press ul li {
+			text-align: center;
+			width: 220px;
+			line-height: 90px;
+			margin: 40px 0 0 0;
+			float: left;
+		}
+
+		.press ul li img {
+			vertical-align: middle
+		}
+
+		.press ul li:last-child {
+			margin: 40px 0 0 0;
+		}
+
+	#quotes {
+		position: relative;
+	}
+
+	#quotes .item {
+		position: absolute;
+		display: none;
+	}
+/* about
+----------------------------------------------------------------------------------------------------------------*/
+
+#about {
+	background: url("http://saforrian.com/tpl/v1/img/home/bg-about.jpg") repeat-x;
+}
+
+	#about #header .logo a {
+		margin: 55px 0 0 42px;
+	}
+
+	#about #header .login {
+		margin: 57px 33px 0 0;
+	}
+
+
+	#about #header h1 {
+		margin-right: 0px;
+	}
+
+	#about #header h2 {
+			background: url("http://saforrian.com/tpl/v1/img/home/about-weduary.png") no-repeat;
+			width: 768px;
+			height: 108px;
+			margin: 60px 0 0 55px;
+		}
+
+	#about .page {
+		width: 810px;
+		margin: 40px auto 0px auto;
+	}
+		
+	
+.intro {
+	padding: 30px 0 30px 0;
+	overflow: hidden;
+}
+
+	.intro h3 {
+		color: #423836;
+		font-size: 3.2em;
+		font-weight: normal;
+		line-height: 1.2em;
+		width: 240px;
+		float: left;
+	}
+
+		.intro h3 span {
+			color: #ce7057;
+			font-weight: bold;
+		}
+
+	.intro p {
+		color: #423836;
+		font-size: 1.8em;
+		line-height: 1.5em;
+		width: 490px;
+		float: right;
+	}
+
+.team {
+	padding: 30px 0 0 0;
+	overflow: hidden;
+}
+
+	.team h2 {
+		color: #423836;
+		font-size: 3.2em;
+		font-weight: normal;
+		text-shadow: 0 1px 0 #fff;
+		margin: 0 0 20px 0;
+	}
+
+	.team .member {
+		margin: 0 0 30px 7px;
+		overflow: hidden;
+		clear: both;
+	}
+	
+		.team .member .picture {
+			background: #fff;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			border-radius: 5px;
+			-moz-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .3);
+			-webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .3);
+			box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .3);
+			margin: 0 0 0 3px; padding: 3px;
+			float: left;
+		}
+		
+		.team .member img {
+			float: left;
+		}
+		
+		.team .member .bio {
+			width: 375px;
+			padding: 10px 48px 0 30px;
+			float: left;
+		}
+		
+			.team .member .bio h3 {
+				color: #423836;
+				font-size: 2.2em;
+				font-weight: normal;
+				text-shadow: 0 1px 0 #fff;
+			}
+			
+			.team .member .bio h4 {
+				color: #888281;
+				font-size: 1.4em;
+				text-transform: uppercase;
+				text-shadow: 0 1px 0 #fff;
+				font-weight: normal;
+				padding: 0 0 10px 0;
+			}
+			
+			.team .member .bio p {
+				color: #423836;
+				font-size: 1.6em;
+				text-shadow: 0 1px 0 #fff;
+			}
+		
+		.team .member .contacts {
+			border: 2px solid rgba(0, 0, 0, .06);
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			border-radius: 5px;
+			width: 168px;
+			margin: 15px 0 0 0; padding: 17px 0 7px 17px;
+			float: left;
+		}
+		
+			.team .member .contacts li a {
+				font-size: 1.6em;
+				height: 25px;
+				margin: 0 0 10px 0; padding: 3px 0 0 38px;
+				display: block;
+			}
+			
+			.team .member .contacts li a:hover {
+				text-decoration: none;
+			}
+			
+			.team .member .contacts .twitter {
+				color: #4099ff;
+				text-shadow: 0 1px 0 #fff;
+				background: url("http://saforrian.com/tpl/v1/img/home/member-twitter.png") no-repeat;
+			}
+			
+			.team .member .contacts .facebook {
+				color: #3b5998;
+				text-shadow: 0 1px 0 #fff;
+				background: url("http://saforrian.com/tpl/v1/img/home/member-facebook.png") no-repeat;
+			}
+		
+		.team .member:last-child .contacts .facebook {
+			font-size: 1.3em;
+			height: 23px;
+			padding: 5px 0 0 38px;
+		}
+		
+.sub-footer {
+	width: 100% !important;
+	padding-bottom: 201px;
+	background: url("http://saforrian.com/tpl/v1/img/home/bg-about-sub.jpg") repeat-x;
+}
+
+.get-in-touch {
+	background: url("http://saforrian.com/tpl/v1/img/home/get-in-touch.png") no-repeat;
+	border-bottom: 1px solid rgba(0, 0, 0, .15);
+	width: 789px;
+	height: 100px;
+	margin: 30px 0 30px 5px; padding: 0 0 20px 0;	
+}
+
+	.get-in-touch h2 {
+		color: #fff;
+		font-size: 3.2em;
+		text-shadow: 0 1px 2px #68372c;
+		font-weight: normal;
+		text-transform: uppercase;
+		margin: 26px 0 0 110px;
+		float: left;
+	}
+	
+	.get-in-touch a {
+		color: #fff;
+		font-size: 3.2em;
+		text-shadow: 0 1px 2px #68372c;
+		margin: 26px 30px 0 0;
+		float: right;
+	}
+	
+	.get-in-touch a:hover {
+		text-decoration: none;
+	}
+
+.work-with-us {
+	border-bottom: 1px solid rgba(0, 0, 0, .15);
+	margin: 0 0 30px 0; padding: 0 30px 30px 30px;
+	overflow: hidden;
+}
+
+	.work-with-us .title {
+		float: left;
+	}
+	
+		.work-with-us .title h2,
+		.inquiry h2 {
+			color: #474747;
+			font-size: 3.2em;
+			font-weight: normal;
+			text-shadow: 0 1px 0 #fff;
+		}
+		
+		.work-with-us .title h3,
+		.inquiry p {
+			color: #807a79;
+			font-size: 2.2em;
+			text-shadow: 0 1px 0 #fff;
+			font-weight: normal;
+		}
+	
+	.work-with-us a {
+		color: #ce7057;
+		font-size: 3.2em;
+		text-shadow: 0 1px 0 #fff;
+		border-bottom: 1px dotted rgba(182, 88, 61, .4);
+		margin: 20px 0 0 0;
+		float: right;
+	}
+	
+	.work-with-us a:hover {
+		border: 0;
+		text-decoration: none;
+	}
+
+.inquiry {
+	border-bottom: 1px solid rgba(0, 0, 0, .15);
+	margin: 0 0 30px 0; padding: 0 30px 30px 30px;
+}
+
+	.inquiry h2 {
+		font-size: 2.8em;
+	}
+	
+	.inquiry p a {
+		color: #ce7057;
+	}
+	
+	.inquiry p a:hover {
+		text-decoration: none;
+	}
+	
+.about-video,
+.about-video iframe {
+	width: 560px;
+	height: 315px;
+	margin: 0 auto 0px auto;
+}
+
+
+/* social
+----------------------------------------------------------------------------------------------------------------*/
+
+.social {
+	height: 100px;
+	overflow: hidden;
+}
+
+	.social h2 {
+		text-indent: -9999em;
+		background: url("http://saforrian.com/tpl/v1/img/home/keep-up.png") no-repeat;
+		width: 224px;
+		height: 25px;
+		margin: 38px 0 0 0;
+		float: left;
+	}
+	
+	.social ul {
+		margin: 39px 0px 0 0;
+		float: right;
+	}
+	
+		.social ul li {
+			float: left;
+		}
+
+		.social ul li a {
+			color: #787878;
+			font-size: 1.2em;
+			text-transform: uppercase;
+			text-shadow: 0 1px #fff;
+			height: 22px;
+			margin: 0 0 0 55px; padding: 3px 0 0 37px;
+			display: block;
+		}
+
+		.social ul li span {
+			color: #7e6b67;
+			font-size: 1.2em;
+			font-weight: bold;
+			text-transform: none;
+		}
+
+		.social ul li .twitter {
+			background: url("http://saforrian.com/tpl/v1/img/home/button-twitter.png") no-repeat;
+		}
+
+		.social ul li .twitter:hover,
+		.social ul li .twitter:hover span {
+			color: #4099ff;
+			text-decoration: none;
+			background-position: bottom left;
+		}
+
+		.social ul li .facebook {
+			background: url("http://saforrian.com/tpl/v1/img/home/button-facebook.png") no-repeat;
+		}
+
+		.social ul li .facebook:hover,
+		.social ul li .facebook:hover span {
+			color: #3b5998;
+			text-decoration: none;
+			background-position: bottom left;
+		}
+
+/* footer
+----------------------------------------------------------------------------------------------------------------*/
+
+footer {
+	background: url("http://saforrian.com/tpl/v1/img/home/bg-footer.jpg") repeat-x;
+	overflow: hidden;
+	clear: both;
+}
+
+	footer .made-by {
+		width: 250px;
+		margin: 35px 0 0 5px; padding: 0 0 30px 0;
+		float: left;
+	}
+		
+		footer .made-by p {
+			color: #b0b0b0;
+			font-size: 1.1em;
+			text-shadow: 0 1px #fff;
+			text-transform: uppercase;
+			text-align: center;
+			width: 120px;
+			padding: 20px 0 0 0;
+			float: left;
+		}
+	
+		footer .made-by .brit {
+			text-indent: -9999em;
+			background: url("http://saforrian.com/tpl/v1/img/home/brit-logo.png") no-repeat;
+			float: right;
+			width: 123px;
+			height: 76px;
+		}
+	
+	footer nav {
+		margin: 50px 0 0 0;
+		float: right;
+	}
+	
+		footer nav li {
+			margin: 0 0 3px 25px;
+			float: left;
+		}
+
+		footer nav li a {
+			color: #53453e;
+			font-size: 1.3em;
+			text-shadow: 0 1px #fff;
+			text-transform: uppercase;
+			letter-spacing: 0.07em;
+		}
+		
+		footer nav li a:hover {
+			text-decoration: none;
+		}
+
+	footer nav p  {
+		color: #87817f;
+		font-size: 1.2em;
+		text-transform: uppercase;
+		text-shadow: 0 1px #fff;
+		text-align: right;
+		letter-spacing: 0.10em;
+		float: right;
+		clear: both;
+	}
+	
+/* tooltip
+----------------------------------------------------------------------------------------------------------------*/
+
+.tooltip {
+	position: absolute;
+	bottom: 151px; 
+	left: -27px;
+	z-index: 0;
+	display: none;
+}
+
+	.tooltip p {
+		color: #fff;
+		font-size: 1.4em;
+		text-shadow: 0 1px #000;
+		background: #69463f;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+		width: 225px;
+		height: auto;
+		padding: 20px 25px 20px 25px;
+	}
+
+	.tooltip .arrow {
+		border-color: #69463f transparent transparent transparent;
+		border-style: solid;
+		border-width: 11px;
+		width: 0;
+		height: 0;
+		margin: 0 0 0 126px;
+	}
+	
+/* slider
+----------------------------------------------------------------------------------------------------------------*/
+
+.jcarousel-control {
+	margin: 3px 0 0 177px;
+}
+
+.jcarousel-control li {
+	float: left;
+}
+
+	.jcarousel-control a {
+		text-indent: -9999em;
+		background: url("http://saforrian.com/tpl/v1/img/home/slider-position.png") no-repeat;
+		width: 14px;
+		height: 14px;
+		margin: 0 6px 0 0;
+		display: block;
+	}
+	
+	.jcarousel-control .current {
+		background-position: bottom left;
+	}
+
+	#themes-prev {
+		text-indent: -9999em;
+		background: url("http://saforrian.com/tpl/v1/img/home/slider-arrows.png") no-repeat;
+		width: 15px;
+		height: 22px;
+		position: absolute;
+		top: 120px; left: 8px;
+	}
+
+	#themes-next {
+		text-indent: -9999em;
+		background: url("http://saforrian.com/tpl/v1/img/home/slider-arrows.png") no-repeat bottom;
+		width: 15px;
+		height: 22px;
+		position: absolute;
+		top: 120px; right: 0;
+	}
+	
+.jcarousel-skin-tango .jcarousel-container {
+	float: right;
+	position: relative;
+	margin: 5px 0 0 0;
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl {
+	direction: rtl;
+}
+
+.jcarousel-skin-tango .jcarousel-container-horizontal {
+    width: 440px;
+}
+
+.jcarousel-skin-tango .jcarousel-container-vertical {
+    width: 440px;
+    height: 245px;
+}
+
+.jcarousel-skin-tango .jcarousel-clip {
+    overflow: hidden;
+    margin: 0 0 0 23px;
+}
+
+.jcarousel-skin-tango .jcarousel-clip-horizontal {
+    width:  385px;
+    height: 270px;
+}
+
+.jcarousel-skin-tango .jcarousel-clip-vertical {
+    width:  75px;
+    height: 245px;
+}
+
+.jcarousel-skin-tango .jcarousel-item {
+    width: 377px;
+    height: 258px;
+}
+
+.jcarousel-skin-tango .jcarousel-item-horizontal {
+	margin-left: 0;
+    margin-right: 10px;
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-item-horizontal {
+	margin-left: 10px;
+    margin-right: 0;
+}
+
+.jcarousel-skin-tango .jcarousel-item-vertical {
+    margin-bottom: 10px;
+}
+
+.jcarousel-skin-tango .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}
+
+/* @font-face
+----------------------------------------------------------------------------------------------------------------*/
+
+@font-face {
+	font-family: BandaSemiBold;
+	src: url('http://saforrian.com/tpl/v1/fonts/bandasemibold.otf');
+}

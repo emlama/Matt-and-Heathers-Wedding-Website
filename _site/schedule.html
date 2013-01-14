@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" class="js"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Matthew and Heather's Wedding</title>
+
+<script type="text/javascript" src="//use.typekit.net/ukh7tqy.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+<link href="favicon.ico" rel="icon">  
+
+<link rel="stylesheet" href="themes/global/css/main.css">
+<link rel="stylesheet" href="themes/theme9/css/style.css">
+
+<script type="text/javascript" src="themes/global/js/jquery.js"></script>
+<script type="text/javascript" src="themes/global/js/main.js"></script>
+<script type="text/javascript" src="themes/global/js/more.js"></script>
+<script type="text/javascript" src="themes/global/js/jcarousellite_1.0.1.js"></script>
+<script type="text/javascript" src="themes/global/js/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="themes/global/js/jquery.tinyscrollbar.js"></script>
+
+<style type="text/css">
+	.textcolor { color: #656b8a ; }
+  	.bgcolor { background-color: #bf8080 ; }
+	.bordercolor { border-color: #bf8080 ; }
+</style>
+
+<script> 
+	var parent_element = "div.list > ul";
+	var child_element = "> li";
+	theme_settings = {
+		'associations': {
+			'color': [
+				'.textcolor',
+			],
+			'secondary_color': [
+				'.bgcolor',
+				'.bordercolor'
+			]
+		}
+	};
+</script>
+
+<meta name="csrf-token" content="2caeb0cf63eae5012d7a7b953dfe0b30">
+<link href="tpl/v1/css/jquery.Jcrop.css" rel="stylesheet">
+<script type="text/javascript">
+	var wedding_root = '';
+	var root = '';
+	var s3_prefix = 'http://assets.weduary.com.s3.amazonaws.com';
+	var fb_id = '1807139';
+</script>
+<script src="tpl/v1/js/jquery.Jcrop.min.js" type="text/javascript"></script>
+
+</head>
+<body class="" id="logistics">
+<div id="header">
+	<h1><a href="index.html"><span class="left">Matthew</span><span class="amp textcolor">&amp;</span><span class="right">Heather</span></a></h1>
+	<h2 class="byline">are getting married!</h2>
+	<p class="date">May 4th, 2013</p>
+	<p class="save">save the date!</p>
+	<ul>
+		<li><a class="bordercolor" href="index.html">Home</a></li> <div class="bgcolor"></div>
+		<li><a class="bordercolor" href="story.html">About</a></li> <div class="bgcolor"></div>
+		<li><a class="bordercolor" href="schedule.html">Schedule</a></li> <div class="bgcolor"></div> 
+		<li><a class="bordercolor" href="hotels.html">Hotels</a></li> <div class="bgcolor"></div> 
+		<li><a class="bordercolor" href="registry.html">Registry</a></li> <div class="bgcolor"></div> 
+		<li><a class="bordercolor" href="baltimore.html">Baltimore Tips</a></li>
+	</ul>	
+</div>
+
+    
+    <div id="content">
+	<div class="wrapper">
+		<div class="events">
+			<div class="rsvp">
+				<h2>Rehersal Block Party</h2>
+				<p>May 3rd, 2013</p>
+				<p>5:00PM to 8:30PM</p>
+			</div>
+			<div class="details">
+				<h2>Overview</h2>
+				<p>Come on by for some food and get to know new faces before the wedding. We will provide the food and festivities and feel free to bring along something to drink. Please in your RSVP lets us know if you are attending.</p>
+				<h2>Attire</h2>
+				<p>Casual and comfortable</p>
+				<h2>Where</h2>
+				<p><strong>Matt &amp; Heather's Block</strong></p>
+				<p class="address">520 S Durham St (10 minute walk from the Marriott)</p>
+				<div id="homeMap" style="width:295px; height:400px"></div>
+			</div>
+		</div>
+		<div class="events">
+			<div class="rsvp">
+				<h2>The Wedding</h2>
+				<p>May 4th, 2013</p>
+				<p>3:30PM to 11:00PM</p>
+			</div>
+			<div class="details">
+				<h2>Overview</h2>
+				<p>The wedding and ceremony will be located at the 2640 space, an eclectic aged church. We will have shuttles available throughout the evening in case you prefer to leave before your shuttle time. Appetizers and dinner will be prepared by our friend and talented craftsman Joe Edwardsen of <a href="http://joesquared.com/">Joe Squared</a> and wine and beer will be served, so bring your dancing shoes and an appetite! Make sure to note any dietary needs in your RSVP and we will aim to accommodate them.</p>
+				<h2>Attire</h2>
+				<p>Attire Hipster formal - i.e. long dresses, short dresses, suits, ties or bow-ties, everything is welcome</p>
+				<h2>Where</h2>
+				<p><strong>2640 Space</strong></p>
+				<p class="address">2640 St Paul Street, Baltimore, MD</p>
+				<div id="redEmmas" style="width:295px; height:400px"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyA1i6hadNb8ipKvKNNghLXWR5HCFFoVszk&sensor=false"></script>
+<script type="text/javascript">
+
+  function initialize() {
+
+    var redEmmasLatLng   = new google.maps.LatLng(39.320451, -76.616003);
+
+    var redEmmasMapOptions = {
+	    center: 			redEmmasLatLng,
+	    zoom: 				12,
+		disableDefaultUI:   true,
+		scrollwheel:        false,
+		zoomControl:        true,
+		zoomControlOptions: {
+		  style: google.maps.ZoomControlStyle.SMALL
+		},
+	    mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+
+    var redEmmasMap = new google.maps.Map(document.getElementById("redEmmas"),
+        redEmmasMapOptions);
+
+	var redEmmasMarker = new google.maps.Marker({
+		position:  redEmmasLatLng,
+		map:       redEmmasMap,
+		title:     "The 2640 Space"
+	});
+
+    var homeLatLng   = new google.maps.LatLng(39.2851709, -76.5907351);
+
+    var homeMapOptions = {
+	    center: 			homeLatLng,
+	    zoom: 				12,
+		disableDefaultUI:   true,
+		scrollwheel:        false,
+		zoomControl:        true,
+		zoomControlOptions: {
+		  style: google.maps.ZoomControlStyle.SMALL
+		},
+	    mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+
+    var homeMap = new google.maps.Map(document.getElementById("homeMap"),
+        redEmmasMapOptions);
+
+	var homeMarker = new google.maps.Marker({
+		position:  homeLatLng,
+		map:       homeMap,
+		title:     "Matt and Heathers"
+	});
+
+  }
+  $(function () {
+  	initialize();
+  });
+</script>
+
+	<div id="footer">
+		<ul>
+			<a href="index.html"><li>Home</li></a> <div class="bgcolor"></div>
+			<a href="story.html"><li>About</li></a> <div class="bgcolor"></div>
+			<a href="schedule.html"><li>Schedule</li></a> <div class="bgcolor"></div>
+			<a href="hotels.html"><li>Hotels</li></a> <div class="bgcolor"></div>
+			<a href="registry.html"><li>Registry</li></a> <div class="bgcolor"></div>
+			<a href="baltimore.html"><li>Baltimore Tips</li></a>
+		</ul>
+
+		<div id="madewith">
+			<span></span>
+			<a href="http://www.weduary.com/index.html" class="textcolor" target="_blank">Made with<span>Weduary</span></a>
+		</div>
+	</div>
+</body>
+</html>
