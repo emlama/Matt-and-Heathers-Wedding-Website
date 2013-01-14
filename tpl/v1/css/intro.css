@@ -1,0 +1,1644 @@
+#envelope {
+	background: url('../img/intro/envelope.png');
+	width: 635px;
+	height: 532px;
+	margin: 55px auto 0px auto;
+	padding: 52px 0px 0px 0px;
+	position: relative;
+}
+	#envelope h2 {
+		font-family: Champagne;
+		font-size: 50px;
+		font-weight: normal;
+		color: #907c7c;
+		text-align: center;
+		margin: 0px;
+	}
+	#envelope p {
+		font-size: 16px;
+		color: #665e5e;
+		text-align: justify;
+		text-shadow: 0px 1px #fff;
+		letter-spacing: 1px;
+		line-height: 22px;
+		width: 396px;
+		margin: 0px auto 35px auto;
+	}
+	#envelope p.uppercase {
+		font-size: 14px;
+		text-align: center;
+		text-transform: uppercase;
+		text-shadow: none;
+		line-height: inherit;
+	}
+	#envelope .get-started {
+		background: url('../img/intro/button-get-started.png');
+		display: block;
+		width: 310px;
+		height: 49px;
+		margin: 45px auto 0px auto;
+		outline: none;
+	}
+		#envelope .get-started span { display: none; }
+	
+	#envelope h3 {
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 12px;
+		font-weight: normal;
+		color: #7e6b67;
+		text-align: center;
+		text-shadow: 0px 1px #feedea;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		margin: 140px 0px 0px 0px;
+	}
+	#envelope .invite {
+		background: url('../img/intro/button-invite.png');
+		display: block;
+		width: 208px;
+		height: 40px;
+		margin: 10px auto 0px auto;
+		outline: none;
+	}
+		#envelope .invite span { display: none; }
+	#envelope .seal {
+		background: url('../img/intro/seal.png');
+		width: 131px;
+		height: 132px;
+		position: absolute;
+		bottom: 78px;
+		left: -69px;
+	}
+
+#box {
+	background: url('../img/intro/box-bg.png');
+	width: 516px;
+	margin: 95px auto 35px auto;
+	position: relative;
+}
+	#box .top {
+		background: url('../img/intro/box-top.png');
+		width: 516px;
+		height: 35px;
+		position: absolute;
+		top: -35px;
+		left: 0px;
+	}
+	#box .bottom {
+		background: url('../img/intro/box-bottom.png');
+		width: 516px;
+		height: 35px;
+		position: absolute;
+		bottom: -35px;
+		left: 0px;
+	}
+	#box .step {
+		font-family: Champagne;
+		font-size: 35px;
+		color: #907c7c;
+		text-align: center;
+		text-shadow: 0px 1px #fff;
+		line-height: 58px;
+		background: url('../img/intro/step-bg.png');
+		width: 58px;
+		height: 58px;
+		position: absolute;
+		top: -18px;
+		left: -18px;
+		z-index: 2;
+	}
+	#box .title {
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 14px;
+		color: #a7a3a2;
+		text-align: center;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		margin: 0px 0px 45px 0px;
+	}
+
+form {
+	margin: 0px;
+}
+	form label {
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 20px;
+		color: #665e5e;
+		text-align: center;
+		text-shadow: 0px 1px #fff;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		display: block;
+		margin: 0px 0px 15px 0px;
+	}
+	form .subtext {
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 12px;
+		color: #8b8484;
+		text-align: center;
+		text-shadow: 0px 1px #fff;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		margin: -10px 0px 0px 0px;
+	}
+	form .error {
+		font-family: Banda;
+		color: #c00;
+		text-align: center;
+		margin: -10px 40px 10px 40px;
+	}
+	form .input {
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 20px;
+		color: #c7c4c3;
+		text-align: center;
+		text-shadow: 0px 1px #fff;
+		background: url('../img/intro/input-bg.png') bottom left repeat-x;
+		display: block;
+		width: 437px;
+		margin: 0px auto 45px auto;
+		padding: 10px 0px;
+		border: 0px;
+		outline: none;
+	}
+	form textarea {
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 20px;
+		color: #c5c2c2;
+		text-align: center;
+		text-shadow: 0px 1px #fff;
+		line-height: 45px;
+		background: url('../img/intro/textarea-bg.png') top left;
+		background-attachment: local;
+		display: block;
+		width: 440px;
+		min-height: 135px;
+		margin: 0px auto 20px auto;
+		padding: 0px;
+		border: 0px;
+		outline: none;
+		resize: vertical;
+		overflow-x: hidden;
+		overflow-y: auto;
+	}
+	form .button {
+		background: url('../img/intro/button-next.png');
+		display: block;
+		width: 148px;
+		height: 67px;
+		margin: -10px auto 0px auto;
+		border: 0px;
+		outline: none;
+		cursor: pointer;
+	}
+	form .button.done { background: url('../img/intro/button-done.png'); }
+	form .button.add-to-cart { width: 170px; background: url('../img/intro/button-add-to-cart.png'); }
+	form .back {
+		background: url('../img/intro/button-back.png');
+		display: block;
+		width: 88px;
+		height: 40px;
+		border: 0px;
+		position: absolute;
+		bottom: 10px;
+		left: -27px;
+		outline: none;
+		cursor: pointer;
+	}
+	form .button.spaced { margin: 0px auto; }
+	form .divider {
+		background: url('../img/intro/form-divider.png') center no-repeat;
+		height: 10px;
+		margin: 20px 0px;
+	}
+
+#step1 {
+	position: relative;
+}
+	#step1 .reorder-names {
+		position: absolute;
+		width: 231px;
+		left: -197px;
+		top: 145px;
+	}
+	#step1 .reorder-names p {
+		float: left;
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 14px;
+		background: #756f6d;
+		padding: 9px 9px 10px;
+		margin: 0;
+		width: 160px;
+		color: #FFFFFF;
+		border-radius: 8px;
+		text-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+		line-height: 128%;
+		border: 1px solid #4d4947;
+		box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.10);
+		display: none;
+	}
+	#step1 .reorder-names a {
+		width: 51px;
+		height: 51px;
+		background: url("../img/global/icon-swap.png") no-repeat right center;
+		display: block;
+		float: right;
+		margin: 2px 0 0;
+	}
+	#step1 .reorder-names > a:hover {
+		display: none;
+	}
+	#step1 .reorder-names > a:hover ~ p {
+		display: block;
+	}
+	#step1 > .selection {
+		position: relative;
+		padding: 0px 30px 25px 30px;
+		margin: 0 auto;
+		display: table;
+		min-height: 108px;
+		position: relative;
+	}
+	#step1 > label.second {
+		background: url("../img/global/box_seperator.png") no-repeat center top;
+		padding-top: 25px;
+	}
+	#step1 .note {
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 16px;
+		text-shadow: #FFFFFF 0 1px 1px;
+		text-align: center;
+		margin: -10px 0 10px 0;
+		height: 35px;
+		color: #C7C4C3;
+	}
+	#step1 > .selection:after {
+	   content: "";
+	   visibility: hidden;
+	   display: block;
+	   height: 0;
+	   clear: both;
+	}
+		#step1 > .selection .change {
+			text-decoration: none;
+			display: inline-block;
+			float: right;
+			font-size: 13px;
+			color: #6a7820;
+			line-height: 33px;
+			height: 33px;
+			background: #e9ecd8;
+			border: 1px solid #b3c264;
+			border-radius: 7px;
+			padding: 0 12px;
+			margin-top: -6px;
+			text-transform: uppercase;
+			text-indent: 0px;
+			position: absolute;
+			right: 37px;
+			top: 13px;
+			z-index: 99;
+		}
+		#step1 > .selection .input[type="text"] {
+			background-image: none;
+			background: #fff;
+			border: 1px solid #d4d3d3;
+			border-radius: 3px;
+			width: 398px; /* 330 */
+			margin: 0;
+			padding: 13px 16px 13px;
+			text-align: left;
+			-moz-box-shadow:    inset 0px 0px 2px 1px rgba(0, 0, 0, 0.05);
+			-webkit-box-shadow: inset 0px 0px 2px 1px rgba(0, 0, 0, 0.05);
+			box-shadow:         inset 0px 0px 2px 1px rgba(0, 0, 0, 0.05);
+			text-indent: -1px;
+			margin: 0 0 4px;
+		}
+		#step1 > .selection.second .input[type="text"] {
+			text-indent: 24px;
+		}
+		#step1 > .selection #spouse {
+			text-indent: 0px;
+		}
+		#step1 > .selection.second #spouse.editing-name {
+			text-indent: 24px;
+		}
+		#step1 > .selection #selected_spouse, #step1 > .selection .selected_user {
+			width: 398px; /* 330 */
+			height: 22px; /* 50 */
+			margin: 0;
+			padding: 13px 16px 13px 16px;
+			background: rgba(0, 0, 0, 0.05);
+			border: 1px solid #b8c184;
+			color: #534947;
+			font-size: 20px;
+			position: relative;
+			text-indent: 0px;
+		}
+		#step1 > .selection.second #selected_spouse, #step1 > .selection.second .selected_user {
+			text-indent: 25px;
+		}
+			#step1 > .selection #selected_spouse > span, #step1 > .selection .selected_user > span {
+				width: 318px;
+				display: block;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+			}
+			#step1 > .selection #selected_spouse a.edit, #step1 > .selection .selected_user a.edit {
+				text-decoration: none;
+				display: inline-block;
+				float: right;
+				font-size: 13px;
+				color: #6a7820;
+				line-height: 33px;
+				height: 33px;
+				background: #e9ecd8;
+				border: 1px solid #b3c264;
+				border-radius: 7px;
+				padding: 0 19px;
+				margin-top: -6px;
+				text-transform: uppercase;
+				text-indent: 0px;
+			}
+			#step1 > .selection > .remove {
+				font-size: 14px;
+				color: #c00;
+				text-align: center;
+				text-decoration: none;
+				float: left;
+				display: inline-block;
+				width: 16px;
+				height: 22px;
+				overflow: hidden;
+				vertical-align: middle;
+				background: url('../img/global/icon-remove.png') no-repeat right center;
+				margin: 0 11px 0 0;
+				position: absolute;
+				top: 14px;
+				left: 47px;
+			}
+		#step1 > .selection .results {
+			margin: 0 0 0 0;
+			width: 432px;
+		}
+		#step1 > .selection iframe {
+			background: transparent;
+			width: 80px;
+			height: 80px;
+			margin: 0px;
+			border: 0px;
+			position: absolute;
+			top: 8px;
+			right: 9px;
+		}
+		#step1 > .selection .upload {
+			text-align: right;
+			display: block;
+			width: 80px;
+			height: 80px;
+			margin: 0px;
+			position: absolute;
+			top: 8px;
+			right: 9px;
+			overflow: hidden;
+			cursor: pointer;
+		}
+			#step1 > .selection .upload input {
+				font-size: 80px;
+				float: right;
+				margin: 0px;
+				opacity: 0;
+			}
+		#step1 > .selection .options {
+			display: block;
+			overflow: hidden;
+			border-radius: 7px;
+			margin: 8px 0 0;
+			cursor: pointer;
+			height: 50px;
+			overflow: hidden;
+		}
+			#step1 > .selection .options .option {
+				padding: 13px 0 13px;
+				float: left;
+				font-family: Georgia, "Times New Roman", Times, serif;
+				font-size: 16px;
+				text-shadow: #FFFFFF 0 1px 1px;
+				color: #564d4d;
+				width: 143px;
+				height: 20px;
+				text-align: center;
+				position: relative;
+				vertical-align: middle;
+				display: table-cell;
+				background: #f6f6f6;
+				background: -moz-linear-gradient(top, #ffffff 0%, #f0f0f0 100%);
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f0f0f0));
+				background: -webkit-linear-gradient(top, #ffffff 0%,#f0f0f0 100%);
+				background: -o-linear-gradient(top, #ffffff 0%,#f0f0f0 100%);
+				background: -ms-linear-gradient(top, #ffffff 0%,#f0f0f0 100%);
+				background: linear-gradient(top, #ffffff 0%,#f0f0f0 100%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f0f0f0',GradientType=0 );
+				border-top: 1px solid #cacac8;
+				border-bottom: 1px solid #cacac8;
+			}
+			#step1 > .selection .options .option.active {
+				background: url("../img/global/option_active.png") repeat-x;
+			}
+			#step1 > .selection .options .option:first-child {
+				-webkit-border-top-left-radius: 7px;
+				-webkit-border-bottom-left-radius: 7px;
+				-moz-border-radius-topleft: 7px;
+				-moz-border-radius-bottomleft: 7px;
+				border-top-left-radius: 7px;
+				border-bottom-left-radius: 7px;
+				border-left: 1px solid #cacac8;
+			}
+			#step1 > .selection .options .option.active:first-child {
+				-webkit-border-top-left-radius: 0px;
+				-webkit-border-bottom-left-radius: 0px;
+				-moz-border-radius-topleft: 0px;
+				-moz-border-radius-bottomleft: 0px;
+				border-top-left-radius: 0px;
+				border-bottom-left-radius: 0px;
+				border-left: 0px none;
+				border-top: 0px none;
+				border-bottom: 0px none;
+				background: url("../img/global/option-active-left.png") no-repeat left top;
+				height: 23px;
+			}
+			#step1 > .selection .options .option:last-child {
+				-webkit-border-top-right-radius: 7px;
+				-webkit-border-bottom-right-radius: 7px;
+				-moz-border-radius-topright: 7px;
+				-moz-border-radius-bottomright: 7px;
+				border-top-right-radius: 7px;
+				border-bottom-right-radius: 7px;
+				border-right: 1px solid #cacac8;
+			}
+			#step1 > .selection .options .option.active:first-child {
+				-webkit-border-top-left-radius: 0px;
+				-webkit-border-bottom-left-radius: 0px;
+				-moz-border-radius-topleft: 0px;
+				-moz-border-radius-bottomleft: 0px;
+				border-top-left-radius: 0px;
+				border-bottom-left-radius: 0px;
+				border-left: 0px none;
+				border-top: 0px none;
+				border-bottom: 0px none;
+				background: url("../img/global/option-active-left.png") no-repeat left top;
+				height: 23px;
+				padding-top: 14px;
+				padding-left: 1px;
+				padding-right: 0px;
+			}
+			#step1 > .selection .options .option.active:last-child {
+				-webkit-border-top-left-radius: 0px;
+				-webkit-border-bottom-left-radius: 0px;
+				-moz-border-radius-topleft: 0px;
+				-moz-border-radius-bottomleft: 0px;
+				border-top-left-radius: 0px;
+				border-bottom-left-radius: 0px;
+				border-right: 0px none;
+				border-left: 0px none;
+				border-top: 0px none;
+				border-bottom: 0px none;
+				background: url("../img/global/option-active-right.png") no-repeat right top;
+				height: 23px;
+				padding-top: 14px;
+			}
+			#step1 > .selection .options .option:after {
+				content: '';
+				background: #cacac8;
+				width: 1px;
+				height: 46px;
+				position: absolute;
+				left: -2px;
+				top: 0;
+				display: block;
+			}
+			#step1 > .selection .options .option:before {
+				content: '';
+				background: #ffffff;
+				width: 1px;
+				height: 46px;
+				position: absolute;
+				left: -1px;
+				top: 0;
+				display: block;
+			}
+				#step1 > .selection .options .option > div {
+					display: table;
+					margin: 0 auto;
+				}
+				#step1 > .selection .options .option:first-child:before {
+					display: none;
+				}
+				#step1 > .selection .options .option:first-child:after {
+					display: none;
+				}
+				#step1 > .selection .options .option.active:last-child:before {
+					content: '';
+					background: #cacac8;
+					width: 1px;
+					height: 47px;
+					position: absolute;
+					left: -1px;
+					top: 0;
+					display: block;
+				}
+				#step1 > .selection .options .option.active:last-child:after {
+					height: 46px;
+					top: 1px;
+				}
+				#step1 > .selection .options .option.active:before {
+					background: #cacac8;
+				}
+				#step1 > .selection .options .option.active:after {
+					background: #ffffff;
+				}
+				#step1 > .selection .options .option.active:last-child:after {
+					display: block;
+				}
+				#step1 > .selection .options .option .icon {
+					display: block;
+					float: left;
+					margin: 0 12px 0 0;
+				}
+				#step1 > .selection .options .option.bride .icon {
+					background: url("../img/global/icon-bride.png") no-repeat left center;
+					width: 17px;
+					height: 19px;
+				}
+				#step1 > .selection .options .option.groom .icon {
+					background: url("../img/global/icon-groom.png") no-repeat left center;
+					width: 17px;
+					height: 19px;
+				}
+				#step1 > .selection .options .option.other .icon {
+					background: url("../img/global/icon-smilie.png") no-repeat left center;
+					width: 17px;
+					height: 19px;
+				}
+					#step1 > .selection .options .option > div > div {
+						float: left;
+					}
+#step2 .error {
+	margin-top: -10px;
+	margin-bottom: 20px;
+}
+#step2 .profile_pic {
+	background: url('../img/intro/pic-field.png');
+	width: 437px;
+	height: 97px;
+	margin: 0px auto 15px auto;
+	position: relative;
+}
+	#step2 .profile_pic label {
+		font-size: 24px;
+		text-transform: none;
+		letter-spacing: 0px;
+		display: inline-block;
+		float: left;
+		margin: 23px 0px 5px 25px;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		width: 316px;
+		text-align: left;
+	}
+	#step2 .profile_pic p {
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 12px;
+		color: #969191;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		display: inline-block;
+		float: left;
+		clear: left;
+		margin: 0px 0px 0px 25px;
+	}
+	#step2 .profile_pic .pic {
+		width: 80px;
+		height: 79px;
+		padding: 1px 0px 0px 0px;
+		outline: none;
+		position: absolute;
+		top: 8px;
+		right: 9px;
+	}
+	#step2 .profile_pic .pic.empty {
+		background: url('../img/intro/pic-bg.png') center center no-repeat !important;
+	}
+		#step2 .profile_pic .pic.empty > span {
+			background: url('../img/intro/pic-choose.png') center center no-repeat !important;
+			background-size: auto auto !important;
+		}
+		#step2 .profile_pic .pic > span {
+			background: url('../img/intro/pic-choose.png') center center no-repeat;
+			background-size: 100%;
+			display: block;
+			width: 80px;
+			height: 80px;
+			position: relative;
+		}
+		#step2 .profile_pic .pic > span span {
+			background: url('../img/global/photo/button-edit.png');
+			display: block;
+			width: 24px;
+			height: 24px;
+			position: absolute;
+			right: -3px;
+			bottom: -3px;
+		}
+		#step2 .profile_pic .pic.loading > span {
+			background: url('../img/intro/pic-loading.gif') center center no-repeat !important;
+			background-size: auto;
+		}
+		#step2 .profile_pic .pic.selected > span {
+			background: center center no-repeat 100%;
+			height: 79px;
+			border-radius: 5px;
+		}
+	#step2 .profile_pic .pic.default > span {
+		background-size: auto auto;
+		background-position: center center;
+		background-repeat: no-repeat !important;
+	}
+	#step2 .profile_pic iframe {
+		background: transparent;
+		width: 80px;
+		height: 80px;
+		margin: 0px;
+		border: 0px;
+		position: absolute;
+		top: 8px;
+		right: 9px;
+	}
+	#step2 .profile_pic .upload {
+		text-align: right;
+		display: block;
+		width: 80px;
+		height: 80px;
+		margin: 0px;
+		position: absolute;
+		top: 8px;
+		right: 9px;
+		overflow: hidden;
+		cursor: pointer;
+	}
+		#step2 .profile_pic .upload input {
+			font-size: 80px;
+			float: right;
+			margin: 0px;
+			opacity: 0;
+		}
+
+#step3 .profile {
+	width: 291px;
+	margin: 0px auto 25px auto;
+	position: relative;
+	overflow: hidden;
+}
+	#step3 .profile div {
+		float: left;
+		width: 137px;
+		height: 137px;
+		background: center center no-repeat;
+		border-radius: 5px;
+		overflow: hidden;
+	}
+	#step3 .profile div.right { margin: 0px 0px 0px 17px; }
+	#step3 .profile img {
+		max-width: 137px;
+		display: none;
+	}
+	#step3 .profile span {
+		background: url('../img/intro/profile-divider.png');
+		width: 46px;
+		height: 46px;
+		position: absolute;
+		top: 50px;
+		left: 122px;
+	}
+	#step3 .profile p {
+		font-size: 16px;
+		color: #564d4d;
+		text-align: center;
+		text-transform: uppercase;
+		float: left;
+		width: 137px;
+		margin: 15px 0px 0px 0px;
+		word-break: break-all;
+	}
+	#step3 .profile p.right { margin: 15px 0px 0px 17px; }
+	#step3 .url {
+		background: url('../img/intro/url-bg.png');
+		width: 528px;
+		height: 104px;
+		margin: 0px -6px;
+		position: relative;
+	}
+		#step3 .url label {
+			display: block;
+			float: left;
+			width: 187px;
+			height: 46px;
+			margin: 22px 0px 0px 21px;
+		}
+			#step3 .url label span { display: none; }
+		#step3 .url .text {
+			font-family: Georgia, "Times New Roman", Times, serif;
+			font-size: 18px;
+			color: #766b66;
+			text-shadow: 0px 1px #fff;
+			line-height: 46px;
+			background: transparent;
+			float: left;
+			width: 276px;
+			height: 46px;
+			padding: 0px 0px 0px 10px;
+			border: 0px;
+			border-radius: 3px;
+			position: absolute;
+			top: 22px;
+			left: 219px;
+			z-index: 1;
+		}
+		#step3 .url input.text {
+			width: 151px;
+			padding: 0px 5px 0px 130px;
+			z-index: 2;
+		}
+#step3 .domain {
+	width: 420px;
+	margin: 0px auto;
+	position: relative;
+}
+	#step3 .domain p {
+		font-family: Banda;
+		font-size: 16px;
+		color: #695b4b;
+		text-align: center;
+	}
+		#step3 .domain p a {
+			font-weight: bold;
+			color: #7f463b;
+			text-decoration: none;
+		}
+		#step3 .domain p a:hover { text-decoration: underline; }
+#step3 .add-domain {
+		background: url('../img/intro/domain-bg.png');
+		width: 429px;
+		height: 305px;
+		position: absolute;
+		top: 423px;
+		left: 50px;
+		z-index: 2;
+	}
+		#step3 .add-domain .close {
+			background: url('../img/intro/domain-close.png');
+			display: block;
+			float: left;
+			width: 38px;
+			height: 38px;
+			margin: -4px 0px 0px -10px;
+			outline: none;
+		}
+			#step3 .add-domain .close span { display: none; }
+		#step3 .add-domain p {
+			font-family: Georgia, "Times New Roman", Times, serif;
+			font-size: 18px;
+			color: #555554;
+			text-align: center;
+			margin: 45px 0px 50px 0px;
+		}
+		#step3 .add-domain p.head {
+			font-family: Banda;
+			font-size: 22px;
+			margin-bottom: 42px;
+		}
+		#step3 .add-domain .step1.taken > p.head {
+			display: none;
+		}
+			#step3 .add-domain p span {
+				background: url('../img/intro/domain-plus.png');
+				display: inline-block;
+				width: 12px;
+				height: 12px;
+				vertical-align: middle;
+			}
+		#step3 .add-domain .error {
+			font-family: Banda;
+			font-size: 12px;
+			color: #c00;
+			line-height: 20px;
+			margin: -20px 0px 0px 0px;
+		}
+		#step3 .add-domain label {
+			font-size: 11px;
+			color: #636362;
+		}
+		#step3 .add-domain .input {
+			font-family: Champagne;
+			font-size: 34px;
+			color: #8e8e8e;
+			width: 350px;
+			margin: -3px auto 23px auto;
+			padding: 0px 0px 0px 0px;
+		}
+		#step3 .add-domain .available {
+			padding-top: 66px;
+		}
+			#step3 .add-domain .available p:first-child {
+				margin-bottom: 27px;
+			}
+		#step3 .add-domain .taken label {
+			margin-top: 16px;
+		}
+		#step3 .add-domain .taken > .taken > p:first-child {
+			margin-bottom: 4px;
+		}
+		#step3 .add-domain .taken > .taken > p:first-child + p {
+			margin-bottom: 10px;
+			margin-top: 2px;
+		}
+		#step3 .add-domain .smaller {
+			line-height: 200%;
+			margin-left: 45px;
+			margin-right: 45px;
+			margin-bottom: 10px;
+			font-family: Georgia, "Times New Roman", Times, serif;
+			font-size: 11px;
+			color: #636362;
+			text-align: center;
+			text-shadow: 0px 1px #fff;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			display: block;
+		}
+		#step3 .add-domain .available .smaller {
+			font-size: 16px;
+		}
+		#step3 .add-domain .smaller + .smaller {
+			margin-top: 0px;
+		}
+		#step3 .add-domain .taken > .taken > .smaller,
+		#step3 .add-domain .available > .smaller {
+			margin-top: 30px;
+			margin-bottom: 35px;
+		}
+			#step3 .add-domain .smaller a {
+				color: #7f463b;
+			}
+		#step3 .add-domain .add-to-cart-blurb {			
+			display: block;
+			font-family: Georgia, "Times New Roman", Times, serif;
+			font-size: 16px;
+			color: #cb7260;
+			text-align: center;
+			text-transform: uppercase;
+			background: url('../img/intro/ns-bg.png');
+			width: 225px; /* 245 */
+			height: 57px; /* 79 */
+			margin: -15px auto 35px auto;
+			padding: 12px 10px 10px;
+			vertical-align: middle;
+			text-align: center;
+			list-style: none;
+			color: #767676;
+			line-height: 170%;
+		}
+		#step3 .add-domain .ns {
+			font-family: Georgia, "Times New Roman", Times, serif;
+			font-size: 14px;
+			color: #cb7260;
+			text-align: center;
+			text-transform: uppercase;
+			background: url('../img/intro/ns-bg.png');
+			width: 245px;
+			height: 59px;
+			margin: -15px auto 35px auto;
+			padding: 10px 0px;
+			list-style: none;
+		}
+			#step3 .add-domain .ns li {
+				padding: 5px 10px;
+			}
+		#step3 .add-domain .remove {
+			font-family: Banda;
+			font-size: 11px;
+			color: #000000;				
+			color: #665e5e;
+			text-align: center;
+			text-shadow: 0px 1px #fff;
+			text-transform: uppercase;
+			display: block;
+			margin: -20px 0px 24px 0px;
+			text-align: center;
+			display: block;
+			cursor: pointer;
+		}
+#step3 .set-domain-dns {
+		background: url('../img/intro/domain-bg.png');
+		width: 429px;
+		height: 305px;
+		position: absolute;
+		top: 423px;
+		left: 50px;
+		z-index: 2;
+	}
+		#step3 .set-domain-dns .close {
+			background: url('../img/intro/domain-close.png');
+			display: block;
+			float: left;
+			width: 38px;
+			height: 38px;
+			margin: -4px 0px 0px -10px;
+			outline: none;
+		}
+			#step3 .set-domain-dns .close span { display: none; }
+		#step3 .set-domain-dns p {
+			font-family: Georgia, "Times New Roman", Times, serif;
+			font-size: 18px;
+			color: #555554;
+			text-align: center;
+			margin: 45px 0px 50px 0px;
+		}
+		#step3 .set-domain-dns p.head {
+			font-family: Banda;
+			font-size: 22px;
+			margin-bottom: 22px;
+		}
+		#step3 .set-domain-dns p.smaller {
+			margin-top: 21px;
+			margin-bottom: 11px;
+			font-family: Georgia, "Times New Roman", Times, serif;
+			font-size: 11px;
+			color: #636362;
+			text-align: center;
+			text-shadow: 0px 1px #fff;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			display: block;
+		}
+		#step3 .set-domain-dns p.smaller.smallcaps {
+			font-family: Georgia, "Times New Roman", Times, serif;
+			font-size: 11px;
+			color: #636362;
+			text-align: center;
+			text-shadow: 0px 1px #fff;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			display: block;
+			margin: 0px 0px 15px 0px;
+		}
+		#step3 .set-domain-dns p.what {				
+			font-family: Champagne;
+			font-size: 34px;
+			color: #8e8e8e;
+			width: 350px;
+			margin: -3px auto 23px auto;
+			padding: 0px 0px 0px 0px;
+			text-align: center;
+			text-shadow: 0px 1px white;
+			display: block;
+			background: url('../img/intro/input-bg.png') bottom left repeat-x;
+		}
+		#step3 .set-domain-dns p.a-record {
+			margin-top: 15px;
+			margin-bottom: 10px;
+			font-family: Georgia, "Times New Roman", Times, serif;
+			color: #636362;
+			text-align: center;
+			text-shadow: 0px 1px #fff;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			display: block;
+		}
+		#step3 .set-domain-dns a {
+			color: #7F463B;
+		}
+		#step3 .email p {
+			color: #8b8585;
+			margin: 10px 0px 0px 40px;
+		}
+
+#step3 .date {
+	text-align: center;
+	margin: 0px;
+}
+	#step3 .date .select {
+		margin: 0px 5px;
+		clear: left;
+	}
+		#step3 .date .select span {
+			width: 98px;
+		}
+#step3 .tbd{
+	width: 516px;
+	margin: 20px 0px 66px 0px;
+	
+}
+	#step3 .tbd .checkbox {
+		margin: 0px 0px 0px 158px;
+		background: url('../img/intro/checkbox.png') top;
+		display: inline-block;
+		width: 23px;
+		height: 23px;
+		float: left;
+	}
+	#step3 .tbd h3 {
+		font-size: 14px;
+		font-weight: normal;
+		color: #665e5e;
+		text-shadow: 0px 1px #fff;
+		text-transform: uppercase;
+		margin: 0px 0px 0px 8px;
+		line-height: 23px;
+		display: inline-block;
+		float: left;
+	}
+
+	#step3 .tbd .checkbox.checked { background-position: bottom; }
+
+#step4 {
+	
+}
+	#step4 .heading {
+		background: url('../img/intro/theme-heading.png');
+		width: 528px;
+		height: 120px;
+		margin: 0px -6px 30px -6px;
+		position: relative;
+	}
+		#step4 .heading .add {
+			background: url('../img/intro/button-add-domain.png');
+			display: block;
+			width: 192px;
+			height: 50px;
+			float: right;
+			margin: 22px 18px 0px 0px;
+			outline: none;
+		}
+			#step4 .heading .add span { display: none; }
+	#step4 .themes {
+		text-align: center;
+		background: url('../img/intro/theme-divider.png') top repeat-y;
+		margin: 0px 0px 20px 0px;
+		padding: 0px;
+		overflow-x: hidden;
+	}
+		#step4 .themes li {
+			display: inline-block;
+			width: 180px;
+			height: 225px;
+			margin: 0px 22px;
+			padding: 15px 0px;
+		}
+		#step4 .themes .thumb {
+			background: url('../img/intro/theme-bg.png');
+			width: 180px;
+			height: 175px;
+			margin: 0px 0px 4px 0px;
+			padding: 5px 0px 0px 0px;
+			position: relative;
+		}
+			#step4 .themes .thumb span {
+				font-family: Georgia, "Times New Roman", Times, serif;
+				font-size: 18px;
+				color: #fff;
+				text-align: center;
+				text-shadow: 0px 1px #7c892d;
+				line-height: 27px;
+				background: url('../img/intro/price-bg.png');
+				display: block;
+				width: 69px;
+				height: 31px;
+				position: absolute;
+				top: 10px;
+				left: -6px;
+			}
+			#step4 .themes .thumb span.free {
+				text-indent: -9999px;
+				background: url('../img/intro/price-free.png');
+			}
+			#step4 .themes .thumb span.selected {
+				font-style: italic;
+				text-shadow: 0px 1px #2f7a8a;
+				text-transform: lowercase;
+				background: url('../img/intro/selected-theme.png');
+				width: 89px;
+				top: 40px;
+			}
+		#step4 .themes .button {
+			display: block;
+			width: 85px;
+			height: 41px;
+			float: left;
+			outline: none;
+		}
+			#step4 .themes .button span { display: none; }
+		#step4 .themes .button.preview {
+			background: url('../img/intro/button-preview.png');
+			margin: 0px 10px 0px 0px;
+		}
+		#step4 .themes .button.choose {
+			margin: 0px;
+			background: url('../img/intro/button-choose.png');
+		}
+
+/* JS specific elements */
+.results {
+	background: #fff;
+	width: 437px;
+	margin: -30px 0px 0px 37px;
+	padding: 0px;
+	border-bottom: 1px solid #ccc;
+	border-radius: 5px;
+	list-style: none;
+	position: absolute;
+	z-index: 3;
+	overflow: hidden;
+}
+	.results a {
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 16px;
+		color: #564d4d;
+		text-decoration: none;
+		text-transform: capitalize;
+		display: block;
+		padding: 10px;
+		border-top: 1px dotted #ddd;
+	}
+	.results li:first-child a { border: 0px; }
+	.results a:hover { background: #fcfcfc; }
+	.results img {
+		vertical-align: middle;
+		height: 30px;
+		margin: 0px 10px 0px 0px;
+		border: 0px;
+	}
+	.results span {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+#selected_spouse, .selected, body .selected_user {
+	text-align: left !important;
+	text-align: left;
+	position: relative;
+}
+.selected, .selected_user {
+	margin: 0px;
+	padding: 0px;
+}
+.selected .input, .selected_user .input {
+	text-align: left !important;
+}
+#selected_spouse:hover, .selected:hover, .selected_user:hover {
+	text-align: left;
+}
+#selected_spouse:hover, .selected:hover {
+	text-align: left;
+}
+	#selected_spouse img, .selected img {
+		height: 30px;
+		margin: 0px 10px 0px 0px;
+		vertical-align: middle;
+	}
+	#selected_spouse a.remove, .selected .input a.remove, .selected_user a.remove, .selected_user .input a.remove {
+		font-size: 14px;
+		color: #c00;
+		text-decoration: none;
+		float: left;
+		display: inline-block;
+		width: 16px;
+		height: 22px;
+		overflow: hidden;
+		vertical-align: middle;
+		background: url('../img/global/icon-remove.png') no-repeat right center;
+		margin: 0 11px 0 0;
+		z-index: 39;
+	}
+	
+#spouse_label {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	color: #c7c4c3;
+	text-align: center;
+}
+	#spouse_label span {
+		background: url('../img/intro/pic-loading.gif');
+		display: inline-block;
+		width: 16px !important;
+		height: 16px !important;
+		margin: 0px 10px;
+		vertical-align: middle;
+	}
+#spouse_label.hidden { display: none; }
+html.js#spouse_label { display: none; }
+
+#message{
+	width: 639px;
+	height: 549px;
+	background-image: url("../img/global/page_not_found.png");
+	margin: 140px auto 100px auto;
+	background-position:center center;
+	background-repeat: no-repeat;
+	
+	
+	}
+	#text{
+		margin: 230px 0px 0px 55px;
+		float:left;
+		
+		
+		
+	}
+	
+#message h1{
+	
+	margin: 0px;
+	color: #faafaf;
+	font-size: 104px;
+	font-family: Champagne;
+	text-shadow: 0px 1px #fff;
+	font-weight:normal;
+	display:block;
+	float:left;
+
+	}
+#message p{
+	width: 300px;
+	margin: 40px 0px 0px 25px;
+	color: #979393;
+	text-shadow: 0px 1px #fff;
+	font-family: banda;
+	font-size: 20px;
+	display:block;
+	float:left;
+	
+	}	
+	
+#message a{
+	margin: 75px 130px 0px 0px;
+	width: 233px;
+	height: 49px;
+	display: block;
+	background-image: url("../img/global/backlink_bg.png");
+	color: #ecebeb;
+	text-shadow: 0px 1px #000000;
+	font-family: banda;
+	font-size: 18px;
+	float: right;
+	text-align:center;
+	line-height: 49px;
+	text-decoration: none;
+	}
+	#logistics h3 {
+		font-size: 20px;
+		font-weight: normal;
+		color: #665e5e;
+		text-align: center;
+		text-shadow: 0px 1px #fff;
+		text-transform: uppercase;
+		margin: 0px 0px 5px 0px;
+	}
+	#logistics h3 span {
+		background: left center no-repeat;
+		padding: 0px 0px 0px 30px;
+	}
+	#logistics h3.what span {
+		background-image: url('../img/dashboard/logistics/icon-what.png');
+	}
+	#logistics h3.when span {
+		background-image: url('../img/dashboard/logistics/icon-when.png');
+	}
+	#logistics h3.place span {
+		background-image: url('../img/dashboard/logistics/icon-place.png');
+	}
+	#logistics h3.address span {
+		background-image: url('../img/dashboard/logistics/icon-address.png');
+	}
+	#logistics h3.time span {
+		background-image: url('../img/dashboard/logistics/icon-time.png');
+	}
+	#logistics h3.overview span {
+		background-image: url('../img/dashboard/logistics/icon-overview.png');
+	}
+	#logistics h3.ladies span {
+		background-image: url('../img/dashboard/logistics/icon-ladies.png');
+	}
+	#logistics h3.gentlemen span {
+		background-image: url('../img/dashboard/logistics/icon-gentlemen.png');
+	}
+	input.address {
+		line-height: 16px;
+		width: 430px;
+		background: url('../img/dashboard/logistics/lines.png') bottom left;
+		margin: 0px auto 25px auto;
+		height: 20px;
+	}
+	div.input{
+		height: 35px;
+		padding: 0px 0px;
+		
+		
+		}
+	#logistics .input input, #logistics .input textarea {
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 16px;
+		color: #b8b4b4;
+		text-align: center;
+		background: transparent;
+		height: 35px;
+		width: 100%;
+		margin: 0px;
+		padding: 0px;
+		border: 0px;
+		outline: none;
+	}
+	#logistics .input textarea {
+		line-height: 35px;
+		height: 35px;
+		resize: none;
+	}
+	#logistics .date {
+		text-align: center;
+		margin: 0px 0px 25px 0px;
+	}
+	#logistics .date .select {
+		display: inline-block;
+		margin: 0px 5px;
+	}
+	#logistics .date .select span {
+		width: 98px;
+	}
+	#logistics .more {
+		font-family: Banda;
+		font-size: 15px;
+		font-weight: bold;
+		color: #d47a67;
+		text-decoration: none;
+		display: block;
+		width: 500px;
+		margin: -25px auto 30px auto;
+		position: relative;
+		z-index: 3;
+	}
+	#logistics .more:hover {
+		text-decoration: underline;
+	}
+	#logistics .more.inside {
+		width: 430px;
+		margin: 25px auto 0px auto;
+	}
+	#logistics .lines {
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 11px;
+		color: #564d4d;
+		text-shadow: 0px 1px #fff;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		line-height: 35px;
+		width: 425px;
+		background: url('../img/dashboard/logistics/lines.png') bottom left;
+		margin: 0px auto 25px auto;
+		padding: 0px 0px 0px 5px;
+		position: relative;
+		overflow: hidden;
+	}
+	#logistics .lines label{
+	font-family: Georgia, "Times New Roman", Times, serif;
+font-size: 11px;
+color: #564D4D;
+text-shadow: 0px 1px white;
+text-transform: uppercase;
+letter-spacing: 2px;
+line-height: 35px;
+display: inline;
+	}
+	#logistics .lines input {
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 12px;
+		color: #b8b4b4;
+		background: transparent;
+		height: 35px;
+		width: 100px;
+		margin: 0px;
+		padding: 0px;
+		border: 0px;
+		outline: none;
+		position: absolute;
+		right: 0px;
+	}
+	#logistics .lines input.name {
+		width: 315px;
+	}
+	#logistics .lines input.address {
+		width: 290px;
+	}
+	#logistics .lines .left {
+		float: left;
+		width: 203px;
+		position: relative;
+	}
+	#logistics .lines .left input {
+		text-align: right;
+		width: 50px;
+		right: 60px;
+	}
+	#logistics .lines .right {
+		float: right;
+		width: 202px;
+		padding: 0px 0px 0px 14px;
+		border-left: 1px solid #d2d1d1;
+		position: relative;
+	}
+	#logistics .lines .right input {
+		text-align: right;
+		width: 80px;
+		right: 60px;
+	}
+	#logistics .lines a {
+		font-size: 11px;
+		text-decoration: none;
+		color: #97918b;
+		background: url('../img/dashboard/logistics/time-arrow.png') right center no-repeat;
+		display: inline-block;
+		padding: 0px 18px 0px 0px;
+		position: absolute;
+		right: 15px;
+	}
+	#logistics .delete {
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 11px;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		color: #c00;
+		display: block;
+		width: 440px;
+		margin: 20px auto 0px auto;
+	}
+	#logistics .delete input {
+		vertical-align: middle;
+	}
+	#logistics .box .nopad {
+		margin-bottom: 0px !important;
+	}
+	
+#loading {
+	background: url('../img/intro/loading.png') top center no-repeat;
+	margin: 200px 0px 0px 0px;
+	padding: 157px 0px 0px 0px;
+}
+	#loading p {
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 16px;
+		color: #979191;
+		text-align: center;
+		text-shadow: 0px 1px #fff;
+		line-height: 25px;
+		width: 400px;
+		margin: 15px auto 30px auto;
+	}
+	#loading .loading {
+		background: url('../img/intro/loading.gif') center no-repeat;
+		height: 13px;
+	}
+
+#manage-admins {
+	font-family: Banda;	color: #09c;
+	font-size:16px;
+	width: 437px;
+	height: 45px;
+	background-color: rgba(0,0,0,0.08);
+	display:block;
+	margin: 0px auto 30px auto;
+	line-height: 45px;
+	text-align:center;
+	border-radius: 3px;
+	text-decoration:none;
+	color: #4a4141;
+	text-shadow: 0px 1px #fff;	
+}
+	#manage-admins span {
+			width: 18px;
+			height: 18px;
+			background-image: url('../img/intro/button-add-admin.png');
+			display:inline-block;
+			margin: 0px 15px -3px 0px;	
+	}
+
+#manage-admins {
+	font-family: Banda;	color: #09c;
+	font-size:16px;
+	width: 437px;
+	height: 45px;
+	background-color: rgba(0,0,0,0.08);
+	display:block;
+	margin: 0px auto 30px auto;
+	line-height: 45px;
+	text-align:center;
+	border-radius: 3px;
+	text-decoration:none;
+	color: #4a4141;
+	text-shadow: 0px 1px #fff;	
+}
+	#manage-admins span {
+			width: 18px;
+			height: 18px;
+			background-image: url('../img/intro/button-add-admin.png');
+			display:inline-block;
+			margin: 0px 15px -3px 0px;	
+	}
+
+.add-more {
+	font-family: Banda;	color: #09c;
+	font-size:16px;
+	width: 437px;
+	height: 45px;
+	background-color: rgba(0,0,0,0.08);
+	display:block;
+	margin: 0px auto 25px auto;
+	line-height: 45px;
+	text-align:center;
+	border-radius: 3px;
+	text-decoration:none;
+	color: #4a4141;
+	text-shadow: 0px 1px #fff;
+	padding: 0px;
+	position: relative;
+	cursor: pointer;
+}
+	.add-more span {
+		width: 26px;
+		height: 27px;
+		background: url('../img/global/icon-plus-dark.png') left center no-repeat;
+		display: inline-block;
+		margin: 0px 15px -8px 0px;	
+	}
+.add-more-content {
+	margin: 5px 0 0 0;
+}
+	
+#selected_admins {
+	margin: 0px 0px 30px 0px;
+	text-align:center;
+}
+	#selected_admins li {
+		margin-bottom: 0px;
+	}
+
+#admins {
+	display: none;
+}
+
+/*
+#crop {
+	text-align: center;
+	background: url('../img/intro/black75.png');
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 10;
+}
+	#crop .img {
+		display: inline-block;
+		margin: 50px 0px 20px 0px;
+	}
+	#crop .buttons, #crop .status {
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 14px;
+		font-weight: bold;
+		color: #fff;
+		text-align: center;
+	}
+		#crop .buttons a {
+			color: inherit;
+			text-decoration: none;
+			margin: 0px 0px 0px 10px;
+		}
+		#crop .buttons a:hover { text-decoration: underline; }
+		#crop .buttons iframe {
+			background: transparent;
+			display: inline-block;
+			width: 200px;
+			height: 20px;
+			border: 0px;
+			vertical-align: middle;
+		}
+		#crop .buttons .error {
+			font-family: Georgia, "Times New Roman", Times, serif;
+			font-size: 14px;
+			font-weight: bold;
+			color: #c00;
+			margin: 0px 0px 0px 10px;
+		}
+#crop.hidden { display: none; }
+
+*/

@@ -1,0 +1,133 @@
+<?php $bodyId="logistics"; ?>
+
+<?php include 'includes/header.php'; ?>
+
+<div id="content">
+	<div class="wrapper">
+		<div id="bottom">
+			<div id="travel" class="noborder">
+				<h2>Travel for Out-of-Towners</h2>
+				<div class="travel">
+					<p>If you plan on staying at the Marriott, many things will be in walking distance and if you stay at the Sleep Inn, everything will be a cab ride away. We will provide transportation to and from the wedding for out-of-town guests. Pick up locations will be at the Sleep Inn and the Marriott. More details will come later regarding which shuttle you will be assigned to, however please make sure to check off in your RSVP if you need shuttle service.</p>
+				</div>
+			</div>
+			<div id="hotel">
+				<h2>Accommodations</h2>
+				<div class="cont">
+					<div class="left">
+						<h3><a href="http://www.marriott.com/hotels/travel/bwidt-courtyard-baltimore-downtown-inner-harbor/index.html" target="_blank">Courtyard Marriott</a></h3>
+						<div id="marriott_canvas" style="width:288px; height:270px"></div>
+						<p>1000 Aliceanna Street, Baltimore, MD</p>
+						
+						<a class="directions" href="http://goo.gl/maps/Dr2JE">Get driving directions</a>
+					</div>
+					<div class="right">
+						<p class="overview">
+							<strong>Rate</strong><br />
+							$169 a night plus 15% tax. The cutoff date for this rate is 3/22/2013.<br />
+							However we suggest that you book as soon as possible in the case that we need to block-off more rooms.<br />
+							<br />
+							<strong>Reservations</strong><br />
+							To reserve a room at the Courtyard Marriott you can do either of the following.<br />
+							<br />
+							1. Call the hotel directly at 443-923-4000 and request the &quot;Forr-Sarkissian Wedding Group Rate&quot;.<br />
+							<br />
+							2. Go online to marriott.com/bwidt and lick &quot;Special Rates &amp; Awards&quot; on the left side. Use the group code &quot;FSWFSWA&quot; to reserve rooms with 1 king sized bed, or &quot;FSWFSWB&quot; to reserve rooms with 2 double beds.<br />
+							<br />
+							<strong>Amenities</strong><br />
+							- Access to the MAC Gym (our excellent gym)<br />
+							- Swimming pool<br />
+							- There is a parking fee of $23.<br />
+							<br />
+							<strong>Location</strong><br />
+							Right in the harbor east, everything will be in walking distance with no need for a car
+						</p>
+					</div>
+				</div>
+				<div class="cont">
+					<div class="left">
+						<h3><a href="http://www.sleepinn.com/hotel-baltimore-maryland-MD222.html" target="_blank">Sleep Inn &amp; Suites Inner Harbor</a></h3>
+						<div id="sleepInn_canvas" style="width:288px; height:270px"></div>
+						<p>301 The Fallsway, Baltimore, MD</p>
+						<a class="directions" href="http://goo.gl/maps/8oD2v">Get driving directions</a>
+					</div>
+					<div class="right">
+						<p class="overview">
+							<strong>Rate</strong><br />
+							$109 a night plus 15% tax.<br />
+							However we suggest that you book as soon as possible in the case that we need to block-off more rooms.<br />
+							<br />
+							<strong>Reservations</strong><br />
+							Call (410) 779-6166 and request the &quot;Forr-Sarkissian Wedding Group Rate&quot;.<br />
+							<br />
+							<strong>Amenities</strong><br />
+							- Free Hot breakfast buffet.<br />
+							- There is a parking fee of $15.<br />
+							<br />
+							<strong>Location</strong><br />
+							Just north of harbor east, in an emerging part of the city, it will be best to take cabs to and from the hotel as it is not quite walking distance to restaurants and other attractions.
+						</p>
+					</div>
+				</div>
+			</div>		
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyA1i6hadNb8ipKvKNNghLXWR5HCFFoVszk&sensor=false"></script>
+<script type="text/javascript">
+
+  function initialize() {
+
+    var marriottMapOptions = {
+	    center: 			new google.maps.LatLng(39.283562, -76.599805),
+	    zoom: 				15,
+		disableDefaultUI:   true,
+		scrollwheel:        false,
+		zoomControl:        true,
+		zoomControlOptions: {
+		  style: google.maps.ZoomControlStyle.SMALL
+		},
+	    mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+
+    var marriotMap = new google.maps.Map(document.getElementById("marriott_canvas"),
+        marriottMapOptions);
+
+    var marriottLatLng   = new google.maps.LatLng(39.283562, -76.599805);
+	var marriottMarker = new google.maps.Marker({
+		position:  marriottLatLng,
+		map:       marriotMap,
+		title:     "Courtyard Marriott"
+	});
+
+    var sleepInnMapOptions = {
+	    center: 			new google.maps.LatLng(39.2921614, -76.6074954),
+	    zoom: 				15,
+		disableDefaultUI:   true,
+		scrollwheel:        false,
+		zoomControl:        true,
+		zoomControlOptions: {
+		  style: google.maps.ZoomControlStyle.SMALL
+		},
+	    mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+
+    var sleepInnMap = new google.maps.Map(document.getElementById("sleepInn_canvas"),
+        sleepInnMapOptions);
+
+    var sleepInnLatLng   = new google.maps.LatLng(39.2921614, -76.6074954);
+	var sleepInnMarker = new google.maps.Marker({
+		position:  sleepInnLatLng,
+		map:       sleepInnMap,
+		title:     "Sleep Inn Baltimore"
+	});
+
+  }
+
+  $(function () {
+  	initialize();
+  });
+</script>
+
+<?php include 'includes/footer.php'; ?>

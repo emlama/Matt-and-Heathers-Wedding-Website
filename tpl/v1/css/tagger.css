@@ -1,0 +1,358 @@
+.tagger_wrapper{
+	position: relative;	
+}
+
+.tagger_nav {
+	width: 429px;
+	height: 48px;
+	margin: 0px auto;
+	background:url('../img/dashboard/logistics/html_edit_top1.png');	
+	position: relative;
+	z-index: 99;
+	text-align: center;
+}
+.tagger_nav-fixed{
+	position: fixed;
+	top: 0px;
+	margin: 0px 0px 0px 43px;
+	z-index: 106;
+}
+#registry .tagger_nav-fixed{
+	position: fixed;
+	top: 0px;
+	margin: 0px 0px 0px 0px;
+	z-index: 106;
+}
+	.tagger_nav div{
+		margin: 0px 0px 0px 50px;	
+	}
+	.tagger_nav a {
+		width: 30px;
+		height: 42px;
+		display: inline-block;
+		margin: 0px 0px 0px -4px;
+		padding: 0px;
+	}
+	.tagger_nav a:hover {
+		background-color: rgba(0, 0, 0, 0.03) !important;
+	}
+	.tagger_nav a.active, .tagger_nav a:active {
+		background-color: rgba(0, 0, 0, 0.05) !important;
+	}
+	.tagger_nav a.link {
+		border-right: 1px solid rgba(0, 0, 0, 0.1);
+		background: url('../img/dashboard/logistics/html_edit_link.png') no-repeat center center;
+	}
+	.tagger_nav a.unlink {
+		border-right: 1px solid rgba(0, 0, 0, 0.1);
+		background: url('../img/dashboard/logistics/html_edit_unlink.png') no-repeat center 14px;
+	}
+	.tagger_nav a.align.align-left {
+		border-right: 1px solid rgba(0, 0, 0, 0.1);
+		background: url('../img/dashboard/logistics/html_edit_left.png') no-repeat center 16px;
+	}
+	.tagger_nav a.align.align-center {
+		border-right: 1px solid rgba(0, 0, 0, 0.1);
+		background: url('../img/dashboard/logistics/html_edit_center.png') no-repeat center 16px;
+	}
+	.tagger_nav a.align.align-right {
+		background: url('../img/dashboard/logistics/html_edit_right.png') no-repeat center 16px;
+	}
+	.tagger_nav a.bold {
+		border-right: 1px solid rgba(0, 0, 0, 0.1);
+		background: url('../img/dashboard/logistics/html_edit_bold.png') no-repeat center center;
+	}
+	.tagger_nav a.italic {
+		border-right: 1px solid rgba(0, 0, 0, 0.1);
+		background: url('../img/dashboard/logistics/html_edit_italic.png') no-repeat center center;
+	}
+	.tagger_nav a.under {
+		border-right: 1px solid rgba(0, 0, 0, 0.1);
+		background: url('../img/dashboard/logistics/html_edit_under.png') no-repeat center center;
+	}
+	.tagger_nav a.list {
+		border-right: 1px solid rgba(0, 0, 0, 0.1);
+		background: url('../img/dashboard/logistics/html_edit_list.png') no-repeat center center;
+		top: 1px;
+	}
+	
+	.tagger_nav span.count {
+		width:43px;
+		float: right;
+		margin: 0px 20px 0px 0px;
+		line-height: 43px;
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 14px;
+		color: #817979;
+		text-shadow: 0px 1px #fff;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		}
+	
+.js .tagger_input {
+	display: none;
+}
+.tagger_area {
+	width: 429px;
+	min-height: 300px;
+	height: auto;
+	overflow: visible;
+	margin: -6px auto 0px auto;
+	padding: 15px 10px;
+	border: 1px solid rgba(0,0,0, .12);
+	border-radius: 5px;
+	box-sizing: border-box;	
+	outline: none;
+	box-shadow: 1px 0px #fff, inset 0px 0px 4px rgba(0,0,0,0.08);
+	position: relative;
+	z-index: 105;
+	resize: vertical;
+	font-family: Georgia, "Times New Roman", Times, serif !important;
+	font-size: 16px !important;
+	color: #474747 !important;
+	line-height: 145%;
+	font-weight: normal;
+	display: none;
+}
+#registry .tagger_area {
+	min-height: 200px;
+}
+.js .tagger_area {
+	display: block;
+}
+	.tagger_area p {
+		margin: 15px 0px !important;
+		text-transform: none !important;
+		font-family: Georgia, "Times New Roman", Times, serif !important;
+		font-size: 16px !important;
+		color: #474747 !important;
+		font-weight: normal;
+	}
+	.tagger_area p:first-child {
+		margin-top: 0 !important;
+	}
+	.tagger_area a.new, .tagger_area a {
+		position: relative;
+		color: #D47A67;
+		font-size: 16px;
+		text-decoration: none;
+	}
+	.tagger_area b {
+		font-weight: bold !important;
+	}
+	.tagger_area u {
+		text-decoration: underline !important;
+	}
+	.tagger_area i {
+		font-style: italic !important;
+	}
+	.tagger_area ul {
+		margin: 15px 30px !important;
+		padding: 0 !important;
+	}
+		.tagger_area ul li {
+			margin: 0 !important;
+			padding: 0 !important;
+		}
+	.tagger_area .align-left {
+		text-align: left;
+	}
+	.tagger_area .align-center {
+		text-align: center;
+	}
+	.tagger_area .align-right {
+		text-align: right;
+	}
+	div.tagger_area::selection, div.tagger_area *::selection, div.tagger_area::moz-selection, div.tagger_area *::moz-selection {
+		background: rgba(243,161,144, .40);
+	}
+	.tagger_wrapper div.wrapper{
+		margin: 0px 0px 0px -3px;
+		width: 522px;
+			
+	}
+
+	#registry .tagger_wrapper div.wrapper{
+		margin: 0px 0px 0px -3px;
+		width: 435px;
+			
+	}
+	.notebook .tagger_wrapper div.wrapper{
+		margin: 0px 0px 0px 0px;
+		width: 522px;
+			
+	}
+	.wrapper div.edit_box {
+		width: 329px;
+		height: 209px;
+		background: url('../img/dashboard/logistics/html_edit_linkbox.png') no-repeat;
+		position: absolute;
+		padding: 15px 15px 0px 15px;
+		z-index: 115;
+	}
+		.wrapper div.edit_box a.close {
+			width: 20px;
+			height: 20px;
+			display: block;
+			margin: -5px 5px 0px 0px;
+			background: url('../img/dashboard/registry/photo-delete.png') center center no-repeat;
+			opacity: .7;
+			cursor:pointer;
+			float: right;
+		}
+		.wrapper div.edit_box a.close:hover {
+			opacity: 1;
+		}
+		.wrapper div.edit_box label {
+			margin: 15px 0px 10px 0px;
+			box-sizing: border-box;
+			font-family: Georgia, "Times New Roman", Times, serif;
+			font-size: 11px;
+			color: #564D4D;
+			text-shadow: 0px 1px white;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+			display: block;
+		}
+		.wrapper div.edit_box input {
+			width: 299px;
+			height: 20px;
+			display: block;
+			padding: 10px;
+			font-size: 12px;
+			border: 1px solid rgba(0,0,0, 0.22);
+			border-radius: 3px;
+			outline: none;
+			font-family: Georgia, "Times New Roman", Times, serif !important;
+			font-size: 16px !important;
+			color: #B8B4B4 !important;
+			box-shadow: inset 0px 0px 8px rgba(0,0,0, .1);
+			resize:none;
+		}
+		.wrapper div.edit_box input.url {
+			width: 	233px;
+			float: left;
+			margin: 0px 6px 0px 0px;
+		}
+		.wrapper div.edit_box a.ok {
+			width: 60px;
+			height: 42px;
+			display: block;
+			box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			-ms-box-sizing: border-box;
+			box-sizing: border-box;
+			padding: 0px 0px 2px 10px;
+			line-height: 41px;
+			text-align: center;
+			border: 1px solid rgba(0,0,0, 0.10);
+			border-radius: 5px;
+			background: #ccdfc5;
+			font-family: Banda;
+			color: #4b5746;
+			text-decoration: none !important;
+			float: left;
+			clear: none;
+			cursor: pointer;
+			box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.075);
+			font-weight: bold;
+			text-shadow: 1px 0px #fff;
+			position: relative;
+		}
+			.wrapper div.edit_box a.ok:before {
+				content: "";
+				width: 10px;
+				height: 10px;
+				display: block;
+				background: url('../img/dashboard/logistics/check.png') no-repeat;
+				position: absolute;
+				top: 17px;
+				left: 8px;
+			}
+	.wrapper div.edit_box_preview {
+		box-sizing: border-box;
+		height: 47px;
+		background: url('../img/dashboard/logistics/html_edit_linkbox_change1.png') no-repeat;
+		position: absolute;
+		padding: 15px 20px 15px 12px;
+		z-index: 115;
+		white-space: nowrap;
+	}
+	.wrapper div.edit_box_preview:after {
+		content: "";
+		box-sizing: border-box;
+		height: 47px;
+		width: 5px;
+		background: url('../img/dashboard/logistics/html_edit_linkbox_change1.png') no-repeat right;
+		position: absolute;
+		top: 0px;
+		right: -5px;
+		z-index: 115;
+		padding: 0px 2px 0px 0px;
+	}
+		.wrapper div.edit_box_preview p {
+			margin: 0px;
+			display: inline-block;
+			text-transform: none !important;
+			font-family: Georgia, "Times New Roman", Times, serif !important;
+			font-size: 16px !important;
+			color: #474747 !important;
+			text-shadow: 1px 1px rgba(255, 255, 255, 1);
+		}
+		.wrapper div.edit_box_preview a{
+			text-shadow: 1px 1px rgba(255, 255, 255, 1);
+			font-size: 16px;
+			text-decoration: none!important;
+			margin: 0px 0px 0px 5px;
+		}
+			.wrapper div.edit_box_preview a:hover{
+				text-decoration: underline;
+			}
+		.wrapper div.edit_box_preview a.go{
+			color: #D47A67;
+		}
+		.wrapper div.edit_box_preview a.change{
+			color: #474747;
+		}
+		.wrapper div.edit_box_preview a.remove_link{
+			color: #474747;
+			padding: 0px 10px 0px 0px;
+		}
+		.wrapper div.edit_box_preview a.close {
+			width: 20px;
+			height: 20px;
+			display: block;
+			margin: 0px 0px 0px 0px;
+			background: url('../img/dashboard/registry/photo-delete.png') center center no-repeat;
+			opacity: .7;
+			cursor:pointer;
+			position: absolute;
+			right: 5px;
+			top: 14px;
+		}
+		.wrapper div.edit_box_preview a.close:hover {
+			opacity: 1;
+		}
+/* story page */
+
+.notebook .tagger_nav {
+	width: 429px;
+	height: 48px;
+	margin: 0px auto;
+	background:url('../img/dashboard/logistics/html_edit_top.png');	
+	position: relative;
+	z-index: 99;
+	margin: 20px 0px 0px 56px;;
+}
+.bg .wrapper, .notebook .wrapper{
+	position: relative;
+}
+.notebook .tagger_area{
+	width: 429px;
+	min-height: 440px;
+	height: 440px;
+	overflow: scroll;
+	margin: -6px 0px 0px 56px;
+	resize: none;
+}
