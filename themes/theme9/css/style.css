@@ -21,7 +21,7 @@ body{
 	}
 	
 .hidden {
-	display: none !important;
+	display: none;
 }
 /*
 
@@ -2053,8 +2053,6 @@ profile and profile edit
 				}
 
 				div.wrapper_regiter div.info span{
-					float: left;
-					clear: left;
 					font-family:Georgia, "Times New Roman", Times, serif;
 					font-size: 13px;
 					color: #7d7973;
@@ -2082,15 +2080,18 @@ profile and profile edit
 						text-decoration:underline;	
 						}
 				div.wrapper_regiter div.info label{
-					float: left;
-					clear: left;
 					margin: 7px 0px 0px 0px;
 					line-height: 29px;
 					font-family:Georgia, "Times New Roman", Times, serif;
-					font-size: 13px;
+					font-size: 16px;
 					color: #7d7973;
-					text-transform:uppercase;
 					text-shadow: 1px 1px 1px rgba(255,255,255, 0.60);
+					}
+					div.wrapper_regiter div.info .ss-q-title {
+						font-weight: bold;
+					}
+					div.wrapper_regiter div.info .ss-q-help {
+						font-style: italic;
 					}
 				div.wrapper_regiter div.info li.txt label{
 					margin: 0px;	
