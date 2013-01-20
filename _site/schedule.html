@@ -74,7 +74,7 @@
 			<div class="rsvp">
 				<h2>Rehersal Block Party</h2>
 				<p>May 3rd, 2013</p>
-				<p>5:00PM to 8:30PM</p>
+				<p>4:00PM to 8:30PM</p>
 			</div>
 			<div class="details">
 				<h2>Overview</h2>
@@ -184,8 +184,7 @@
       // input["submit"]
       $('form').submit(function () { 
       	console.log('script called');
-       	if ($('.ss-item-required input:radio:checked').length < 2 || $('.ss-text input:text').val() == "") {
-       		console.log('something is missing');
+       	if ($('.ss-item-required input:radio:checked').length != $('.ss-item-required.ss-radio').length || $('.ss-item-required.ss-text input:text').val() == "") {
           $('.ss-item-required.ss-radio').each(function () {
             if ($('input:radio:checked', this).length == 0) {
               $('.ss-q-title, .ss-q-help', this).css("color", "red");
@@ -193,10 +192,13 @@
             }
           });
 
-          if ($('.ss-text input:text').val() == "") {
-            $('.name-field .ss-q-title, .name-field .ss-q-help', this).css("color", "red");
-            $('.name-field .hidden', this).show();
-          }
+          $('.ss-item-required.ss-text').each(function () {
+            if ($('input:text', this).val() == "") {
+              $('.ss-q-title, .ss-q-help', this).css("color", "red");
+              $('.hidden', this).show();
+            }
+          });
+
           return false;  
         }
       });
