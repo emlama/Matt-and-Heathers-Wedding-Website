@@ -31,7 +31,7 @@ common
 
 */
 #header{
-	width: 1200px;
+	width: 860px;
 	height: 344px;
 	margin: 0px auto 0px auto;
 	background: url("../img/header_bg.png") no-repeat center top;
@@ -50,7 +50,7 @@ common
 		#header h1 .left{
 			text-shadow: 1px 1px 1px rgba(238,234,212, 0.80);
 			position: absolute;
-			right: 650px;
+			right: 475px;
 			z-index:1;
 			color: 	#222;
 
@@ -59,7 +59,7 @@ common
 		#header h1 .right{
 			text-shadow: 1px 1px 1px rgba(238,234,212, 0.80);
 			position: absolute;
-			left: 625px;
+			left: 460px;
 			z-index:1;
 			color: 	#222;
 		}
@@ -75,7 +75,7 @@ common
 			line-height: 100px;
 			z-index:1;
 			position:absolute;
-			left: 540px;
+			left: 375px;
 		}
 		
 		#header  p.date{
@@ -166,9 +166,13 @@ common
 	background: rgba(0,0,0, 0.10);
 	border: 1px solid rgba(0,0,0, 0.30);
 	box-shadow: inset 0px 0px 2px 2px rgba(0,0,0, 0.30);
+	width: 100%;
+	}
+	#bs-wrapper {
+		min-width: 860px;
 	}
 	div.wrapper, div.wrapper_regiter{
-		width: 	737px;
+		width: 	860px;
 		height: auto;
 		margin: 0px auto 30px auto;
 		overflow: hidden;
@@ -188,13 +192,13 @@ common
 		clear: left;
 		}
 		#footer{
-	width: 1200px;
+	width: 860px;
 	margin: 20px auto 30px auto;
 	text-align:center;
 	
 	}
 	#footer ul{
-		width: 1200px;
+		width: 860px;
 		list-style: none;
 		padding: 0px;
 		margin: 0px;
@@ -289,7 +293,8 @@ home
 				}
 		
 	#nav_home{
-		width: 783px;
+		width: 860px;
+
 		margin: 20px auto 20px auto;
 		position: relative;	
 		text-align: center;	
@@ -491,7 +496,10 @@ about
 					font-weight: normal;
 					display:inline-block;
 					} 
-					
+					.ss-text {
+						border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    				padding-bottom: 25px;
+					}
 					#about div.wrapper div.story div.info{
 						padding: 30px 30px 0px 30px;	
 						margin: 0px 0px 0px 0px;

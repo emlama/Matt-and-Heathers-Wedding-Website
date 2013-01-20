@@ -99,12 +99,12 @@
               </div>
             </div>
             <br>
+
             <div class="errorbox-good">
               <div class="ss-item ss-item-required ss-radio">
                 <div class="ss-form-entry">
-                  <label class="ss-q-title" for="entry_0">Are you able to join us on May 4th, 2013 in Baltimore, MD? <span class="ss-required-asterisk">*</span></label>
-                  <br>
-                  <label class="ss-q-help" for="entry_0">If you are bringing children please indicate how many people total you will be bringing.</label>
+                  <label class="ss-q-title" for="entry_0">Are you able to join us on May 4th, 2013 in Baltimore, MD?<span class="ss-required-asterisk">*</span></label>
+                  <label class="ss-q-help" for="entry_0"></label>
                   <div class="hidden">
                     <label for="entry_2" class="ss-q-help" style="color: red;">
                       This is a required question.
@@ -113,31 +113,29 @@
                   <ul class="ss-choices">
                     <li class="ss-choice-item">
                       <label class="ss-choice-label">
-                        <input type="radio" name="entry.0.group" value="Yes, I will be attending with a plus one." class="ss-q-radio" id="group_0_1">Yes, I will be attending with a plus one.
-                      </label>
-                    </li>
-                    
-                    <li class="ss-choice-item">
-                      <label class="ss-choice-label">
-                        <input type="radio" name="entry.0.group" value="Yes, I will be attending, without a plus one." class="ss-q-radio" id="group_0_2">Yes, I will be attending, without a plus one.
+                        <input type="radio" name="entry.0.group" value="Yes, I will be attending with a plus one." class="ss-q-radio" id="group_0_1">
+                          Yes, I will be attending with a plus one.
                       </label>
                     </li>
 
                     <li class="ss-choice-item">
                       <label class="ss-choice-label">
-                        <input type="radio" name="entry.0.group" value="No, unfortunately I cannot attend." class="ss-q-radio" id="group_0_3">No, unfortunately I cannot attend.
+                        <input type="radio" name="entry.0.group" value="Yes, I will be attending, without a plus one." class="ss-q-radio" id="group_0_2">
+                        Yes, I will be attending, without a plus one.
                       </label>
                     </li>
 
                     <li class="ss-choice-item">
-                      <input type="radio" name="entry.0.group" value="__option__" class="ss-q-radio" id="other_option:0">
-                      <label for="other_option:0">Other:</label>
-                      <input type="text" name="entry.0.group.other_option_" value="" class="ss-q-other">
+                      <label class="ss-choice-label">
+                        <input type="radio" name="entry.0.group" value="No, unfortunately I cannot attend." class="ss-q-radio" id="group_0_3">
+                        No, unfortunately I cannot attend.
+                      </label>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
+
             <br>
 
             <div class="errorbox-good">
@@ -220,47 +218,6 @@
             </div>
 
           </form>
-          <script type="text/javascript">      
-            (function($) {
-              var divs = document.getElementById('ss-form').
-              getElementsByTagName('div');
-              var numDivs = divs.length;
-              
-              for (var j = 0; j < numDivs; j++) {
-                if (divs[j].className == 'errorbox-bad') {
-                  divs[j].lastChild.firstChild.lastChild.focus();
-                  return;
-                }
-              }
-
-              for (var i = 0; i < numDivs; i++) {
-                var div = divs[i];
-                if (div.className == 'ss-form-entry' &&
-                    div.firstChild &&
-                    div.firstChild.className == 'ss-q-title') {
-                    div.lastChild.focus();
-                    return;
-                }
-              }
-              // input["submit"]
-              $("form").submit(function () { 
-               if ($('.ss-item-required input:radio:checked').length < 2 || $('input:text').val() == "") {
-                  $('.ss-item-required').each(function () {
-                    if ($('input:radio:checked', this).length == 0) {
-                      $('.ss-q-title, .ss-q-help', this).css("color", "red");
-                      $('.hidden', this).show();
-                    }
-                  });
-
-                  if ($('input:text').val() == "") {
-                    $('.name-field .ss-q-title, .name-field .ss-q-help', this).css("color", "red");
-                    $('.name-field .hidden', this).show();
-                  }
-                  return false;  
-                }
-              });
-            })(jQuery);
-          </script>
         </div> <!-- .ss-form -->
       </div> <!-- form containter -->
     </div> <!-- info containter -->
@@ -282,6 +239,29 @@
 			<a href="http://www.weduary.com/index.html" class="textcolor" target="_blank">Made with<span>Weduary</span></a>
 		</div>
 	</div>
+  <script type="text/javascript">      
+    $(function() {
+      // input["submit"]
+      $('form').submit(function () { 
+      	console.log('script called');
+       	if ($('.ss-item-required input:radio:checked').length < 2 || $('.ss-text input:text').val() == "") {
+       		console.log('something is missing');
+          $('.ss-item-required.ss-radio').each(function () {
+            if ($('input:radio:checked', this).length == 0) {
+              $('.ss-q-title, .ss-q-help', this).css("color", "red");
+              $('.hidden', this).show();
+            }
+          });
+
+          if ($('.ss-text input:text').val() == "") {
+            $('.name-field .ss-q-title, .name-field .ss-q-help', this).css("color", "red");
+            $('.name-field .hidden', this).show();
+          }
+          return false;  
+        }
+      });
+    });
+  </script>
 	<script>
 		if (location.host == 'localhost:4000') {
 			document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>');
